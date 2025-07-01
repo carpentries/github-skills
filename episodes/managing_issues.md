@@ -14,11 +14,12 @@ exercises: 0
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-After following this section, participants will be ready to practice the following skills:
+After following this section, participants will be able to:
 
-- explain the value of labelling issues
-- apply labels to issues
-- explore the set of labels recommended by The Carpentries
+- explain the value of labelling issues.
+- apply labels to issues.
+- explore the set of labels recommended by The Carpentries.
+- create milestones to help plan and track progress on their project.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -131,6 +132,9 @@ then click the "Label" dropdown in the top bar of the listing,
 and choose the label(s) you want to apply to these issues.
 
 :::
+
+## Planning Your Next Iteration
+Content goes here.
 
 :::::::::::::::::::::::::::::::::::::: keypoints
 
