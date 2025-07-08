@@ -10,7 +10,13 @@
     <loc>https://carpentries.github.io/github-skill-up-maintainers/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/github-skill-up-maintainers/aio.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/github-skill-up-maintainers/example_repo_setup.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/github-skill-up-maintainers/images.html</loc>
   </url>
   <url>
     <loc>https://carpentries.github.io/github-skill-up-maintainers/index.html</loc>
@@ -25,10 +31,22 @@
     <loc>https://carpentries.github.io/github-skill-up-maintainers/instructor/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/github-skill-up-maintainers/instructor/aio.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/github-skill-up-maintainers/instructor/example_repo_setup.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/github-skill-up-maintainers/instructor/images.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/github-skill-up-maintainers/instructor/index.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/github-skill-up-maintainers/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/github-skill-up-maintainers/instructor/key-points.html</loc>
   </url>
   <url>
     <loc>https://carpentries.github.io/github-skill-up-maintainers/instructor/managing_issues.html</loc>
@@ -44,6 +62,12 @@
   </url>
   <url>
     <loc>https://carpentries.github.io/github-skill-up-maintainers/instructor/reviewing_pull_requests.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/github-skill-up-maintainers/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/github-skill-up-maintainers/key-points.html</loc>
   </url>
   <url>
     <loc>https://carpentries.github.io/github-skill-up-maintainers/managing_issues.html</loc>
