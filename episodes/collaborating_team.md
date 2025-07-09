@@ -33,7 +33,9 @@ Typing `@` in GitHub will bring up a list of all accounts and teams linked to th
 By default, a user will be notified when they are mentioned, assigned an issue, asked to review something, and when some activity occurs on an issue or pull request that they opened or commented on previously.
 These settings can be adjusted for individual projects via a dropdown on the landing page of the repository. 
 
-TODO screenshot here
+![GitHub's different notification settings when watching repository events with 'All Activity' highlighted](fig/github-watch-settings.png){
+alt="GitHub's different notification settings when watching repository events with 'All Activity' highlighted"
+}
 
 You can choose to ignore a project, meaning that GitHub will never notify you about activity on that repository even if you are mentioned directly.
 Or you might prefer to "watch" the project, receiving updates on any activity on the repository e.g. whenever somebody opens a new issue or pull request, or comments on an existing one.
