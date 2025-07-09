@@ -6,9 +6,9 @@ exercises: 0
 
 :::::::::::::::::::::::::::::::::::::: questions
 
-- Q1
-- Q2
-- Q3
+- How will I know when something happens or needs my attention on the lesson project?
+- What communication channels should we setup to aid collaboration?
+- What can we do to encourage regular progress on the project?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -112,8 +112,8 @@ The following practices have been shown to help maintain steady progress with le
 
 :::::::::::::::::::::::::::::::::::::: keypoints
 
-- KP1
-- KP2
-- KP3
+- GitHub's notification settings can be customised to provide the updates you need in the places where you want them.
+- Effective communication is essential to good collaboration.
+- Regular progress can be achieved by ensuring your team members have frequent opportunities to discuss the project.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
