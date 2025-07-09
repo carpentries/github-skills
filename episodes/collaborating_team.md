@@ -100,6 +100,9 @@ Collaborators may also choose other platforms to discuss lesson development or r
 The Carpentries can assist with creating a mailing list specific to the development of your lesson on their [TopicBox](https://carpentries.topicbox.com/) platform for managing threaded email discussions. 
 Also make sure to join the [Incubator lesson developers mailing list](https://carpentries.topicbox.com/groups/incubator-developers) on TopicBox to keep an eye on announcements and discussions relating to lesson development in general within the Carpentries community.
 
+The exact channels and cadance of your communication will largely depend on the personal preferences of your team members.
+The best thing you can do is devote time in an upcoming meeting/coworking session to discuss and agree on where and how you will communicate about the project.
+
 ### Making Progress
 
 The following practices have been shown to help maintain steady progress with lesson development:
