@@ -154,6 +154,13 @@ Issue form templates are specified with YAML and saved with the `.yml` filename 
 GitHub's web interface has some built-in checks and syntax highlighting to help you compose them.
 Pull request templates and non-form issue templates are written as Markdown files (`.md` extension) with metadata such as default labels and assignee for the resulting issue specified as YAML front matter at the top of the file.
 
+:::::::::::::::::::::::::::::::::::::::: callout
+
+### Further reading/viewing
+Consult [our list of recommended resources](../learners/further-reading.md) to continue your learning on all the topics discussed in this skill-up!
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
 :::::::::::::::::::::::::::::::::::::: keypoints
 
 - Encourage newcomers to get involved by maintaining good documentation and a welcoming atmosphere in your project.
