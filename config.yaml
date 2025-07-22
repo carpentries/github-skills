@@ -58,6 +58,8 @@ contact: 'tobyhodges@carpentries.org'
 episodes:
 - managing_issues.md
 - reviewing_pull_requests.md
+- collaborating_team.md
+- collaborating_newcomers.md
 
 # Information for Learners
 learners: 
@@ -66,8 +68,6 @@ learners:
 instructors:
 - instructor-notes.md
 - example_repo_setup.md
-- collaborating_team.md
-- collaborating_newcomers.md
 
 # Learner Profiles
 profiles: 
