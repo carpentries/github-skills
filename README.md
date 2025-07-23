@@ -1,13 +1,15 @@
-# A skill-up for new lesson Maintainers
+# A skill-up on GitHub features for lesson Maintainers and Developers
 
-This lesson will cover the following skills: 
+This is a GitHub skill-up for Carpentries lesson Maintainers and Developers. 
+It is designed primarily as a resource for skill-up instructors and leaders, but may also be useful for self-directed learning by lesson Maintainers and Developers.
 
-- Managing issues (labelling etc.)
-- Resolving conflicts
-  - Update pull-request once merging directly is no longer possible
-  - Update branch based on changes made on main/upstream repo
-- Reviewing pull-requests
-- Referencing pull-requests/issues 
+This lesson covers the following skills:
 
-For any questions contact team@carpentries.org
+- Managing and tracking issues on projects in GitHub more effectively,
+- Reviewing and providing targeted feedback on proposed changes,
+- Coordinatinh with collaborators to make steady progress on the project,
+- Encouraging newcomers to the project to engage as contributors.
+
+
+For any questions contact team@carpentries.org.
 
