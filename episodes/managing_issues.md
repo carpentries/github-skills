@@ -42,7 +42,7 @@ It can also be a good opportunity for Maintainers to get know each other better,
 
 ## Labelling Issues
 The triage process can be improved with effective use of _labels_ applied to issues.
-Issues are tags that can be applied to issues (and pull requests), annotating them according to their status, type, complexity, etc.
+Labels are tags that can be applied to issues (and pull requests), annotating them according to their status, type, complexity, etc.
 When labels are applied to an issue, they appear next to it in the issue listing for the repository.
 Clicking on a label will show you a list of all issues with that label.
 
