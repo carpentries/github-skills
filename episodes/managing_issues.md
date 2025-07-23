@@ -118,12 +118,12 @@ They are good for managing time-bound, structured iterations and working in shor
 
 Here are some helpful features of Milestones:
 
-* Add a title and description to the Milestone, e.g. _"Issues to be addressed before October pilot workshop"_ or _"Accessibility Enhancement Drive"_.
+* You can add a title and description to the Milestone, e.g. _"Issues to be addressed before October pilot workshop"_ or _"Accessibility Enhancement Drive"_.
 * The Milestone represents a subset of issues on your repository, e.g. the things you want to work on next or a set of issues that share a theme.
   Issues are assigned to a Milestone in a similar way to adding a label.
 * The Milestone can be given a target completion date.
-* A progress bar indicates how close you are to completing the Milestone.
-* The order of issues listed in the Milestone can be adjusted e.g. to indicate task priority to yourself and your collaborators.
+* A progress bar indicates how close you are to completing the Milestone in terms of the number of completed issues versus the total number of issues.
+* The order of issues listed in the Milestone can be adjusted manually by dragging the issue up and down the list, e.g. to indicate task priority to yourself and your collaborators.
 
 
 :::::::::::::::::::::::::::::::::::::: testimonial
