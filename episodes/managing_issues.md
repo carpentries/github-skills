@@ -164,6 +164,21 @@ Renata Curty, Research Facilitator for Social Sciences at UCSB, describes her gr
 
 ::::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::::: callout
+
+### Referencing issues
+It can be helpful to refer to issues and pull requests in conversations elsewhere in a repository.
+Every issue and PR has a unique number (based on the order in which they were created).These numbers can be used, preceded by `#`, to reference a given issue or PR.
+
+Additionally, pull requests (and commit messages) that include particular phrases will trigger the automatic closure of an issue:
+
+- "closes"
+- "fixes"
+- "resolves"
+
+One of the above words followed with the `#` and the number of an issue, e.g. _"fixes #34"_, included in the description of a pull request (the first comment in the PR discussion thread) will tell GitHub that the issue can be automatically closed if/when the pull request is merged.
+
+::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::: keypoints
 
