@@ -10,6 +10,7 @@ This lesson covers the following skills:
 - Coordinatinh with collaborators to make steady progress on the project,
 - Encouraging newcomers to the project to engage as contributors.
 
+The lesson website: https://carpentries.github.io/github-skills/.
 
 For any questions contact team@carpentries.org.
 
