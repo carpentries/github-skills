@@ -47,8 +47,8 @@ Please let the Maintainers know by [opening an issue](https://github.com/carpent
     - **lesson title**
     - **lesson description**
     - **information about how to use the project** - this might be a link to the rendered version of the lesson or to further documentation, or installation instructions and some examples of usage
-    - **list of maintainers** - let people know who is responsible for the project and how to contact them
-    - **contributing information** - summarise the kinds of contributions you are seeking and how to get involved, linking to the repository `CONTRIBUTING.md` file for more details
+    - **list of current maintainers** - let people know who is responsible for the project and how to contact them
+    - **contributing information** - summarise the kinds of contributions you are (or are not) seeking and how to get involved, linking to the repository `CONTRIBUTING.md` file for more details
     - **credits/acknowledgements** - acknowledging past maintainers and others who have helped build the project and templates and resources you have used and adapted gives would-be contibutors confidence that their efforts will be credited too
     - **citation** - tell people how they should cite your project. This could be a sumamry of the detailed information you provide in a separate `CITATION.cff` file (see below)
     - **license** - summarise the licensing terms of the project, linking to the project's full license file (see below).
@@ -100,7 +100,7 @@ It helps to process and respond to contributions quickly, especially when somebo
 Longs delays between opening an issue or pull request and a first response from a maintainer can be demotivating.
 Similarly, after waiting a long time for a response, the contributor may no longer have time to follow up, having moved on to other tasks and projects.
 
-Make sure that you have [configured notifications for your project](./collaborators_team.md#staying-in-the-loop) so that you will know about it when somebody gets involved.
+Make sure that you have [configured notifications for your project](./collaborating_team.md#staying-in-the-loop) so that you will know about it when somebody gets involved.
 
 #### Say _"no"_ when you need to
 
