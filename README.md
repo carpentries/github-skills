@@ -8,7 +8,7 @@ The content is adapted from the existing [GitHub Skill-up for Maintainers and Le
 [Visit the rendered website](https://carpentries.github.io/github-skills).
 
 ## Target Audience
-This skill-up is aimed at Carpentries community members who want to use GitHub’s features to manage their lesson project more effectively. It is suitable for people who are familiar with the folders and files of a Carpentries lesson repository, know how to use GitHub’s web interface to edit the source files of a lesson, and can open and merge pull requests to make changes to the project. By following the session, participants will learn to manage and track issues on their project more effectively, review and provide targeted feedback on proposed changes, coordinate with collaborators to make steady progress on the project, and encourage newcomers to the project to engage as contributors.
+This skill-up is aimed at Carpentries community members who want to use GitHub’s features to manage their lesson project more effectively. It is suitable for people who are familiar with the folders and files of a Carpentries lesson repository, know how to use GitHub’s web interface to edit the source files of a lesson, and can open and merge pull requests to make changes to the project.
 
 ## Learning Objectives
 After following this skill-up, participants will be able to:

@@ -41,7 +41,7 @@ To comment on a range of lines, click-and-hold the `+` button for the first line
 
 ## Suggesting changes
 As well as adding comments line-by-line, you can also suggest specific changes, e.g. to fix a typo, suggest improved wording, etc.
-To do this, take the same approach to start a comment on a line or range of lines, then click the "add a suggestion" button (plus/minus symbol inside a document icon), and edit the source content that appears in the input box with your suggested fix/improvement.
+To do this, take the same approach to start a comment on a line or range of lines, then click the "add a suggestion" button (plus/minus symbol inside a document icon), and edit the source content that appears in the input box with your suggested improvement.
 Suggesting specific changes makes it much easier for contributors to a) understand your suggestions, and b) implement them.
 Suggested changes will be commited to the pull request branch as co-authored by the pull request author and reviewer.
 
@@ -51,9 +51,9 @@ This is the place to add general comments and questions, and to summarise your r
 If nothing else, do not forget to thank the contributor for taking the time to contribute!
 Choose one of the three options:
 
-- "Comment" - a general comment, with no firm outcome. Can be used to complete a review before a pull request is closed.
+- "Comment" - a general comment, with no firm outcome. This option can be a good choice if you plan to close the pull request after completing your review.
 - "Approve" - approve the PR for merging. Some people use this when suggesting only very minor or optional changes - if you want to do this, make sure you are explicit about what changes you are suggesting etc before the PR can be merged
-- "Request changes" - indicates that changes would be required to the PR before you would be willing to merge it.
+- "Request changes" - indicates that changes would be required to the PR before you would be willing to merge it. It also requires another review before the changes can be merged if the `main` branch has been protected (see branch protection rules below).
 
 ## Agree with your team how you will use reviews
 When collaborating regularly with other developers/maintainers on a project, it can be helpful to discuss and agree upon when and how you will use pull requests and reviews in your development process.
