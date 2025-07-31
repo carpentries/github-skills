@@ -99,7 +99,8 @@
           <button class="nav-link dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
             More <i data-feather="chevron-down"></i>
           </button>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown"></ul></li>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown"><li><a class="dropdown-item" href="further-reading.html">Recommended Reading/Viewing</a></li><li><a class="dropdown-item" href="reference.html">Reference</a></li>
+          </ul></li>
       </ul></div>
     <!--
     <form class="d-flex col-md-2 search-form">
@@ -216,7 +217,7 @@
 <div class="accordion accordion-flush" id="accordionFlush2">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading2">
-        <a href="managing_issues.html">1. Managing issues</a>
+        <a href="managing_issues.html">1. Managing Issues</a>
     </div><!--/div.accordion-header-->
 
   </div><!--/div.accordion-item-->
@@ -225,7 +226,7 @@
 <div class="accordion accordion-flush" id="accordionFlush3">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading3">
-        <a href="referencing_pull_requests_issues.html">2. Referencing pull-requests and issues</a>
+        <a href="reviewing_pull_requests.html">2. Reviewing Pull Requests</a>
     </div><!--/div.accordion-header-->
 
   </div><!--/div.accordion-item-->
@@ -234,7 +235,7 @@
 <div class="accordion accordion-flush" id="accordionFlush4">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading4">
-        <a href="reviewing_pull_requests.html">3. Reviewing pull-requests</a>
+        <a href="collaborating_team.html">3. Collaborating with your Team</a>
     </div><!--/div.accordion-header-->
 
   </div><!--/div.accordion-item-->
@@ -243,7 +244,7 @@
 <div class="accordion accordion-flush" id="accordionFlush5">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading5">
-        <a href="resolving_conflicts.html">4. Resolving conflicts</a>
+        <a href="collaborating_newcomers.html">4. Collaborating with Newcomers</a>
     </div><!--/div.accordion-header-->
 
   </div><!--/div.accordion-item-->
@@ -271,7 +272,7 @@
                       <li>
                         <a href="profiles.html">Learner Profiles</a>
                       </li>
-
+                      <li><a href="further-reading.html">Recommended Reading/Viewing</a></li><li><a href="reference.html">Reference</a></li>
                     </ul></div>
                 </div>
               </div>
@@ -295,36 +296,69 @@
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
-        <a class="chapter-link float-end" href="managing_issues.html" rel="next">Next: Managing issues... <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link float-end" href="managing_issues.html" rel="next">Next: Managing Issues... <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <hr></nav><main id="main-content" class="main-content"><h1 class="schedule-heading">Summary and Setup</h1>
       
 
-<p>This is a GitHub skill-up for Carpentries Maintainers and lesson
-developers. It is designed primarily as a resource for skill-up leaders,
-but may also be useful for self-directed learning.</p>
-<p>We recommend that skill-up leaders use <a href="./instructor/index.html">the Instructor View</a> when using the
-site.</p>
+<p>This skill-up teaches some of GitHub’s features and the skills for
+more effective (lesson) repository maintenance. It is designed primarily
+as a resource for skill-up leaders, but may also be useful for
+self-directed learning. The skill-up is taught with example lesson
+repositories in GitHub but the principles and skills covered are
+transferable to other repository hosting systems such as GitLab.</p>
+<p>We recommend that skill-up leaders use <a href="./instructor/">the
+Instructor View</a> of this lesson.</p>
 <section><h2 class="section-heading" id="target-audience">Target Audience<a class="anchor" aria-label="anchor" href="#target-audience"></a></h2>
-<hr class="half-width"><p>The skill-up is aimed at people with a basic familiarity with the
-GitHub interface, and the process of editing files and committing
-changes to a repository via the GitHub web interface. It will be
-particularly relevant to people maintaining/developing a lesson using
-The Carpentries lesson infrastructure (<a href="https://carpentries.github.io/workbench/" class="external-link">the Workbench</a>.</p>
-</section><section><h2 class="section-heading" id="objectives">Objectives<a class="anchor" aria-label="anchor" href="#objectives"></a></h2>
-<hr class="half-width"><p>After following the skill-up, participants should be ready to
-practice the following skills:</p>
-<ul><li>Manage issues more effectively with labels, referencing, and
-automatic closure</li>
-<li>Use GitHub’s comment and suggestion features to review pull
-requests</li>
-<li>Resolve simple merge conflicts using the GitHub web interface</li>
+<hr class="half-width"><p>This skill-up is aimed at Carpentries community members who want to
+use GitHub’s features to manage their lesson project more
+effectively.</p>
+<p>It is suitable for people who:</p>
+<ul><li>Know how to use GitHub’s web interface to edit the source files of a
+repository.</li>
+<li>Can open and merge pull requests to make changes to the
+project.</li>
+</ul><p>Familiar with the folders and files of a Carpentries lesson
+repository will be beneficial but is not essential.</p>
+<p>By following the session, participants will learn to</p>
+<ul><li>Manage and track issues on their project more effectively.</li>
+<li>Review and provide targeted feedback on proposed changes.</li>
+<li>Coordinate with collaborators to make steady progress on the
+project.</li>
+<li>Encourage newcomers to the project to engage as contributors.</li>
+</ul><div id="prerequisite-knowledge" class="callout prereq">
+<div class="callout-square">
+<i class="callout-icon" data-feather="check"></i>
+</div>
+<div id="prerequisite-knowledge" class="callout-inner">
+<h3 class="callout-title">Prerequisite Knowledge</h3>
+<div class="callout-content">
+<p>Participants are expected to know how to do the following things
+before joining the skill-up:</p>
+<ul><li>Edit files using the GitHub web interface.</li>
+<li>Format text as headings, lists, and links with Markdown.</li>
+<li>Open and close/merge issues and pull requests in the GitHub web
+interface.</li>
+</ul></div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="learning-objectives">Learning Objectives<a class="anchor" aria-label="anchor" href="#learning-objectives"></a></h2>
+<hr class="half-width"><p>After following this skill-up, participants will be able to:</p>
+<ul><li>Manage issues on their repositories with labels and milestones.</li>
+<li>Review contributions and provide constructive, targeted
+feedback.</li>
+<li>Choose ways to communicate and work with their collaborators to
+ensure regular progress on the project.</li>
+<li>Document their repository to encourage contributions.</li>
+<li>List three actions they could take to boost the visibility of their
+project in The Carpentries community.</li>
 </ul><!--
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  --></section><section id="setup"><section><h2 class="section-heading" id="setup">Setup<a class="anchor" aria-label="anchor" href="#setup"></a></h2>
 <hr class="half-width"><p>To follow this skill-up, you will need a GitHub account and a web
-browser.</p>
+browser. The session facilitator will provide an example repository for
+you to work with during the session.</p>
 <!--
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
@@ -334,7 +368,7 @@ any links that you are not going to use.
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
-        <a class="chapter-link float-end" href="managing_issues.html" rel="next">Next: Managing issues... <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link float-end" href="managing_issues.html" rel="next">Next: Managing Issues... <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
     </nav></div>
 <!-- END  : inst/pkgdown/templates/content-syllabus.html -->
@@ -378,8 +412,8 @@ any links that you are not going to use.
   "url": "https://carpentries.github.io/github-skill-up-maintainers/index.html",
   "identifier": "https://carpentries.github.io/github-skill-up-maintainers/index.html",
   "dateCreated": "2023-03-08",
-  "dateModified": "2025-07-29",
-  "datePublished": "2025-07-29"
+  "dateModified": "2025-07-31",
+  "datePublished": "2025-07-31"
 }
 
   </script><script>

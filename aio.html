@@ -121,7 +121,10 @@
           <button class="nav-link dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
             More <i data-feather="chevron-down"></i>
           </button>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown"></ul>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+<li><a class="dropdown-item" href="further-reading.html">Recommended Reading/Viewing</a></li>
+<li><a class="dropdown-item" href="reference.html">Reference</a></li>
+          </ul>
 </li>
       </ul>
 </div>
@@ -241,7 +244,7 @@
 <div class="accordion accordion-flush" id="accordionFlush2">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading2">
-        <a href="managing_issues.html">1. Managing issues</a>
+        <a href="managing_issues.html">1. Managing Issues</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -253,7 +256,7 @@
 <div class="accordion accordion-flush" id="accordionFlush3">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading3">
-        <a href="referencing_pull_requests_issues.html">2. Referencing pull-requests and issues</a>
+        <a href="reviewing_pull_requests.html">2. Reviewing Pull Requests</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -265,7 +268,7 @@
 <div class="accordion accordion-flush" id="accordionFlush4">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading4">
-        <a href="reviewing_pull_requests.html">3. Reviewing pull-requests</a>
+        <a href="collaborating_team.html">3. Collaborating with your Team</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -277,7 +280,7 @@
 <div class="accordion accordion-flush" id="accordionFlush5">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading5">
-        <a href="resolving_conflicts.html">4. Resolving conflicts</a>
+        <a href="collaborating_newcomers.html">4. Collaborating with Newcomers</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -310,7 +313,8 @@
                       <li>
                         <a href="profiles.html">Learner Profiles</a>
                       </li>
-
+                      <li><a href="further-reading.html">Recommended Reading/Viewing</a></li>
+<li><a href="reference.html">Reference</a></li>
                     </ul>
 </div>
                 </div>
@@ -340,9 +344,9 @@
     <main id="main-content" class="main-content"><div class="container lesson-content">
         
         
-<section id="aio-managing_issues"><p>Content from <a href="managing_issues.html">Managing issues</a></p>
+<section id="aio-managing_issues"><p>Content from <a href="managing_issues.html">Managing Issues</a></p>
 <hr>
-<p>Last updated on 2025-07-01 |
+<p>Last updated on 2025-07-31 |
 
         <a href="https://github.com/carpentries/github-skill-up-maintainers/edit/main/episodes/managing_issues.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -367,12 +371,13 @@
 <div class="card-body">
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
-<p>After following this section, participants will be ready to practice
-the following skills:</p>
+<p>After following this section, participants will be able to:</p>
 <ul>
-<li>explain the value of labelling issues</li>
-<li>apply labels to issues</li>
-<li>explore the set of labels recommended by The Carpentries</li>
+<li>Explain the value of labelling issues.</li>
+<li>Apply labels to issues.</li>
+<li>Explore the set of labels recommended by The Carpentries.</li>
+<li>Create milestones to help plan and track progress on their
+project.</li>
 </ul>
 </div>
 </div>
@@ -399,17 +404,17 @@ Advisors, would-be contributors, Core Team, etc), and so on.</p>
 <div id="the-value-of-teamwork" class="callout-inner">
 <h3 class="callout-title">The Value of Teamwork</h3>
 <div class="callout-content">
-<p>Note that this triage process is usually made much easier, more
-efficient, and more fun when co-Maintainers of a lesson can meet
-synchronously to work through issues and pull requests together.</p>
+<p>This triage process is usually made much easier, more efficient, and
+more fun when co-Maintainers of a lesson can meet synchronously to work
+through issues and pull requests together.</p>
 <p>Community members have reported positive experience with short,
-regularly scheduled e.g. monthly coworking sessions with their
+regularly scheduled (e.g. monthly) coworking sessions with their
 Maintainer team, using screen-sharing and focussed discussion to
 distribute tasks and collaboratively determine how to process and
-respond to contributions on their repositories.</p>
-<p>It can also be a good opportunity for Maintainers to get know each
-other better, and to share their skills and experience with Git, GitHub,
-and the lesson infrastructure.</p>
+respond to contributions.</p>
+<p>It can also be a good opportunity for Maintainers to get to know each
+other better, and to share their skills and experience with using Git,
+GitHub, and the lesson infrastructure.</p>
 </div>
 </div>
 </div>
@@ -417,15 +422,25 @@ and the lesson infrastructure.</p>
 </h2>
 <hr class="half-width">
 <p>The triage process can be improved with effective use of
-<em>labels</em> applied to issues. Issues are tags that can be applied
+<em>labels</em> applied to issues. Labels are tags that can be applied
 to issues (and pull requests), annotating them according to their
 status, type, complexity, etc. When labels are applied to an issue, they
 appear next to it in the issue listing for the repository. Clicking on a
 label will show you a list of all issues with that label.</p>
 <p>When returning to a lesson repository after some time away, labels
-applied to old issues can help to remind you of the context for each of
-those, and labels can be added/updated as you triage the issue list.</p>
+applied to old issues can help to remind you of their context, and
+labels can be added or updated as you triage the issue list.</p>
+<div class="section level3">
+<h3 id="carpentries-issue-labels">Carpentries Issue Labels<a class="anchor" aria-label="anchor" href="#carpentries-issue-labels"></a>
+</h3>
+<p>The Carpentries maintains <a href="https://docs.carpentries.org/resources/curriculum/issue-labels.html" class="external-link">an
+expanded set of issue labels</a>, which is larger than the default set
+provided by GitHub and intended to provide a more precise categorisation
+of issues typically encountered with a lesson. This label set is
+available on all Carpentries lesson repositories and lessons <a href="https://carpentries.github.io/lesson-development-training/infrastructure.html#creating-a-lesson-repository" class="external-link">built
+from one of our repository templates</a>.</p>
 
+</div>
 </section><section><h2 class="section-heading" id="inviting-community-contributions">Inviting Community Contributions<a class="anchor" aria-label="anchor" href="#inviting-community-contributions"></a>
 </h2>
 <hr class="half-width">
@@ -433,47 +448,217 @@ those, and labels can be added/updated as you triage the issue list.</p>
 expect some spontaneous contributions from the wider community. However,
 in some circumstances, you may want to bring particular items to the
 attention of community members.</p>
-<div class="section level3">
-<h3 id="refer-to-cac">Refer to CAC<a class="anchor" aria-label="anchor" href="#refer-to-cac"></a>
-</h3>
+<div id="accordionSpoiler1" class="accordion spoiler-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button spoiler-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSpoiler1" aria-expanded="false" aria-controls="collapseSpoiler1">
+  <h3 class="accordion-header" id="headingSpoiler1">
+  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="eye"></i></div>
+  For Maintainers of official Carpentries lessons: Refer to CAC
+  </h3>
+</button>
+<div id="collapseSpoiler1" class="accordion-collapse collapse" aria-labelledby="headingSpoiler1" data-bs-parent="#accordionSpoiler1">
+<div class="accordion-body">
 <p>When you want or need to <a href="https://carpentries.github.io/maintainer-onboarding/04-communicate-advisors.html" class="external-link">refer
 an issue/contribution to the Curriculum Advisory Committee</a> for your
 lesson, you should add the <code>status:refer to cac</code> label, and
-tag the CAC in the relevant issue/pull request discussion thread
+mention the CAC in the relevant issue/pull request discussion thread
 (e.g. <code>@datacarpentry/curriculum-advisors-image</code>).</p>
 <p>Adding this label will help members of the CAC more easily identify
 and browse through the items they need to discuss, increasing the
 likelihood that you will receive a timely response.</p>
+</div>
+</div>
+</div>
 </div>
 <div class="section level3">
 <h3 id="help-wanted-good-first-issue">Help Wanted &amp; Good First Issue<a class="anchor" aria-label="anchor" href="#help-wanted-good-first-issue"></a>
 </h3>
 <p>The <code>help wanted</code> and <code>good first issue</code> labels
 can be useful to draw attention from new contributors. In particular,
-the <code>help wanted</code> label can be used to flag up issues that
-the Maintainers would particularly appreciate external support on.
-Issues with this label in any of The Carpentries official lesson
-repositories will appear in the listing on <a href="https://carpentries.org/help-wanted-issues/" class="external-link">the <em>Help Wanted
-Issues</em> page of the website</a>, where new community members are
-often directed to find opportunities to contribute to a lesson
-repository.</p>
+the <code>help wanted</code> label can be used to flag issues that the
+Maintainers would particularly appreciate external support on.</p>
 <p>The <code>good first issue</code> label is used to identify issues
 that do not require in-depth knowledge of the project and its
 infrastructure, etc. Newcomers to the project can use this label to find
 opportunities to make their first contribution. GitHub provides a view
 of all of a repository’s issues with the <code>good first issue</code>
 label on the <code>/contribute</code> page for that repository, e.g. <a href="https://github.com/github/docs/contribute" class="external-link uri">https://github.com/github/docs/contribute</a></p>
-<div id="batch-labelling" class="callout">
-<div class="callout-square">
-<i class="callout-icon" data-feather="bell"></i>
-</div>
-<div id="batch-labelling" class="callout-inner">
-<h3 class="callout-title">Batch Labelling</h3>
-<div class="callout-content">
+<div id="accordionSpoiler2" class="accordion spoiler-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button spoiler-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSpoiler2" aria-expanded="false" aria-controls="collapseSpoiler2">
+  <h3 class="accordion-header" id="headingSpoiler2">
+  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="eye"></i></div>
+  Batch Labelling
+  </h3>
+</button>
+<div id="collapseSpoiler2" class="accordion-collapse collapse" aria-labelledby="headingSpoiler2" data-bs-parent="#accordionSpoiler2">
+<div class="accordion-body">
 <p>Labels can be applied to issues in batches from the issue listing
 page. Check the box next to each issue you want to apply a given label
 to, then click the “Label” dropdown in the top bar of the listing, and
 choose the label(s) you want to apply to these issues.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="planning-your-next-iteration">Planning Your Next Iteration<a class="anchor" aria-label="anchor" href="#planning-your-next-iteration"></a>
+</h2>
+<hr class="half-width">
+<p>Developing a lesson is a project and, like most projects, it consists
+of multiple tasks. Keeping track of the list of tasks the team has to
+do, their progress on each, prioritising tasks for future development,
+sprints and releases, etc., quickly becomes a non-trivial task in
+itself. Without a project management tool/framework, it can be hard to
+keep track of what’s done, or what needs doing, and particularly
+difficult to convey that to others in the team or share the
+responsibilities.</p>
+<p>Different tools and platforms exist to help you with project planning
+and management – for example, <a href="https://www.asana.com" class="external-link">Asana</a>,
+<a href="https://www.trello.com" class="external-link">Trello</a>, <a href="https://miro.com/" class="external-link">Miro</a>, GitHub itself, even sticky notes on a
+white board. Different tools will work best for different teams of
+collaborators, but making sure you use a tool to plan and manage work on
+your lesson development project is better than making it up as you go
+along.</p>
+<div class="section level3">
+<h3 id="milestones">Milestones<a class="anchor" aria-label="anchor" href="#milestones"></a>
+</h3>
+<p>Carpentries lessons are developed in GitHub so it is convenient to
+use its features to keep track of different components of the project
+and their current status.</p>
+<p>GitHub offers two features for task/project management:
+<em>Projects</em> and <em>Milestones</em>. Projects offer a more
+advanced set of functions and are particularly useful when you need to
+work on related tasks spread across multiple repositories. <a href="https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones" class="external-link">Milestones</a>
+are comparatively simple and a great place to start, especially if your
+efforts are focused on a single repository. The focus will be on
+Milestones in this session but we recommend that you <a href="https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects" class="external-link">learn
+more about Projects</a> if you want to take advantage of the full range
+of GitHub’s features for project management.</p>
+<p>Milestones are a way of organising issues on your project into
+smaller units of work (e.g. deliverables) that have deadlines and the
+progress of which needs to be closely tracked (e.g. release management).
+They are good for managing time-bound, structured iterations and working
+in short sprints on batches of issues, which makes them a great fit for
+<a href="https://carpentries.github.io/lesson-development-training/lesson-design.html" class="external-link">the
+iterative process of lesson development recommended in Collaborative
+Lesson Development Training</a>.</p>
+<p>Here are some helpful features of Milestones:</p>
+<ul>
+<li>You can add a title and description to the Milestone,
+e.g. <em>“Issues to be addressed before October pilot workshop”</em> or
+<em>“Accessibility Enhancement Drive”</em>.</li>
+<li>The Milestone represents a subset of issues on your repository,
+e.g. the things you want to work on next or a set of issues that share a
+theme. Issues are assigned to a Milestone in a similar way to adding a
+label.</li>
+<li>The Milestone can be given a target completion date.</li>
+<li>A progress bar indicates how close you are to completing the
+Milestone in terms of the number of completed issues versus the total
+number of issues.</li>
+<li>The order of issues listed in the Milestone can be adjusted manually
+by dragging the issue up and down the list, e.g. to indicate task
+priority to yourself and your collaborators.</li>
+</ul>
+<div id="community-members-perspectives-on-project-management" class="callout testimonial">
+<div class="callout-square">
+<i class="callout-icon" data-feather="heart"></i>
+</div>
+<div id="community-members-perspectives-on-project-management" class="callout-inner">
+<h3 class="callout-title">Community members’ perspectives on project management</h3>
+<div class="callout-content">
+<p>Sven van der Burg, Research Software Engineer at the Netherlands
+eScience Center, describes his group’s approach to piloting and
+contributing back to someone else’s lesson in The Carpentries
+Incubator:</p>
+<blockquote>
+<p><em>“At the <a href="https://www.esciencecenter.nl/" class="external-link">Netherlands
+eScience Center</a> we teach <a href="https://carpentries-incubator.github.io/python-intermediate-development/" class="external-link">‘Intermediate
+Research Software Development’</a> 2-3 times per year. After every
+workshop we have a short meeting to distill the most important
+improvements we can make for the next time that we teach. We open issues
+for improvements to the lesson material (for example <a href="https://github.com/carpentries-incubator/python-intermediate-development/issues/349" class="external-link">issue-349</a>
+and <a href="https://github.com/carpentries-incubator/python-intermediate-development/issues/347" class="external-link">issue-347</a>).</em></p>
+</blockquote>
+<blockquote>
+<p><em>We are not direct maintainers of the lesson, but these issues are
+important for us to fix before teaching the next edition of the
+workshop, because we don’t want to run into them again. Of course other
+users of the lesson would also benefit from the issues being
+fixed.</em></p>
+</blockquote>
+<blockquote>
+<p><em>Therefore, we organised a one-day sprint in which we gathered
+together colleagues from different teams to work on improving the
+lesson. By all working together on one day, together in the same room,
+we were able to focus and get a lot done in a short amount of time,
+while not being distracted by the hundreds of other things we are all
+working on. Of course, we contacted the lesson maintainers to make sure
+that our efforts would be welcome by opening <a href="https://github.com/carpentries-incubator/python-intermediate-development/issues/343" class="external-link">an
+issue in their lesson repository</a>.</em></p>
+</blockquote>
+<blockquote>
+<p><em>We used a Microsoft Planner board to organise our work and keep
+track of what needs to happen:</em></p>
+</blockquote>
+<blockquote>
+<figure><img src="https://github.com/carpentries/lesson-development-training/assets/9945255/7705b6a8-2387-4e00-a8b8-1eaa2a512260" alt="Microsoft Planner project management board displaying TO-DO tasks, tasks being worked on, tasks ready for internal review and completed tasks" class="figure mx-auto d-block"><div class="figcaption">Microsoft Planner project management board</div>
+</figure>
+</blockquote>
+<blockquote>
+<p><em>We bundled our contributions in <a href="https://github.com/esciencecenter-digital-skills/python-intermediate-development" class="external-link">a
+fork of the lesson from The Carpentries Incubator in our own GitHub
+organization</a>. We created pull requests from that fork to a dedicated
+branch (<a href="https://github.com/carpentries-incubator/python-intermediate-development/tree/sprint-May2024" class="external-link">sprint-May2024</a>)
+in the lesson repository. We reviewed each other’s work first before a
+final review from the lesson maintainers.</em></p>
+</blockquote>
+<blockquote>
+<p><em>In this way, we could adapt the lesson to our own needs and
+contribute to the lesson in The Carpentries Incubator in a smooth way
+that does not take away focus on other projects of me and my
+colleagues.”</em></p>
+</blockquote>
+<p>Renata Curty, Research Facilitator for Social Sciences at UCSB,
+describes her group’s approach:</p>
+<blockquote>
+<p><em>Our group uses issues and labels and sets milestones in GitHub to
+organize our lesson development work.</em> <em>We also use a spreadsheet
+to track higher-level decisions, tasks, and assignees and record ideas
+and discussion points in our meeting notes before converting them into
+more detailed issues.</em> <em>We have been meeting regularly (weekly or
+biweekly) to maintain momentum, which helps us to make small but steady
+progress.</em> <em>We are currently working on a modularized version of
+the workshop that will allow instructors to choose what to teach based
+on the time, cohort needs, and learners’ entry knowledge.</em></p>
+</blockquote>
+</div>
+</div>
+</div>
+<div id="referencing-issues" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div id="referencing-issues" class="callout-inner">
+<h3 class="callout-title">Referencing issues</h3>
+<div class="callout-content">
+<p>It can be helpful to refer to issues and pull requests in
+conversations elsewhere in a repository. Every issue and PR has a unique
+number (based on the order in which they were created). These numbers
+can be used, preceded by <code>#</code>, to reference a given issue or
+PR.</p>
+<p>Additionally, pull requests (and commit messages) that include
+particular phrases will trigger the automatic closure of an issue:</p>
+<ul>
+<li>“closes”</li>
+<li>“fixes”</li>
+<li>“resolves”</li>
+</ul>
+<p>One of the above words followed with the <code>#</code> and the
+number of an issue, e.g. <em>“fixes #34”</em>, included in the
+description of a pull request (the first comment in the PR discussion
+thread) will tell GitHub that the issue can be automatically closed if
+the pull request is merged.</p>
 </div>
 </div>
 </div>
@@ -489,8 +674,8 @@ choose the label(s) you want to apply to these issues.</p>
 the community’s attention.</li>
 <li>Labels can be added to an issue using the right sidebar menu of the
 GitHub web interface.</li>
-<li>The Carpentries provides a recommend set of labels, and has systems
-and processes that work with some of these.</li>
+<li>The Carpentries provides a recommended set of labels, and has
+systems and processes that work with some of these.</li>
 </ul>
 </div>
 </div>
@@ -500,80 +685,9 @@ Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
 </div>
-</section></section><section id="aio-referencing_pull_requests_issues"><p>Content from <a href="referencing_pull_requests_issues.html">Referencing pull-requests and issues</a></p>
+</section></section><section id="aio-reviewing_pull_requests"><p>Content from <a href="reviewing_pull_requests.html">Reviewing Pull Requests</a></p>
 <hr>
-<p>Last updated on 2025-07-01 |
-
-        <a href="https://github.com/carpentries/github-skill-up-maintainers/edit/main/episodes/referencing_pull_requests_issues.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
-        </div>
-<div class="overview card">
-<h2 class="card-header">Overview</h2>
-<div class="row g-0">
-<div class="col-md-4">
-<div class="card-body">
-<div class="inner">
-<h3 class="card-title">Questions</h3>
-<ul>
-<li>How do I reference issues and pull requests?</li>
-<li>How can issues be automatically closed when a pull request is
-merged?</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="col-md-8">
-<div class="card-body">
-<div class="inner bordered">
-<h3 class="card-title">Objectives</h3>
-<p>After following this section, participants will be ready to practice
-the following skills:</p>
-<ul>
-<li>reference issues and pull requests by their number</li>
-<li>implement keywords to trigger automatic closue of issues when fixed
-by a pull request</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-<ul>
-<li>It can be helpful to refer to issues and pull requests in
-conversations elsewhere in a repository</li>
-<li>Every issue and PR has a unique number (based on the order in which
-they were created)</li>
-<li>These numbers can be used, preceded by <code>#</code>, to reference
-a given issue or PR.</li>
-<li>Additionally, PRs (and commit messages) that include particular
-phrases will trigger the automatic closure of an issue:
-<ul>
-<li>“closes”</li>
-<li>“fixes”</li>
-<li>“resolves”</li>
-</ul>
-</li>
-</ul>
-<div id="keypoints1" class="callout keypoints">
-<div class="callout-square">
-<i class="callout-icon" data-feather="key"></i>
-</div>
-<div class="callout-inner">
-<h3 class="callout-title">Key Points</h3>
-<div class="callout-content">
-<ul>
-<li>Issues and pull requests can be referred to by their number within a
-repository.</li>
-<li>Pull requests descriptions that include “fixes #XYZ”, “resolves
-#XYZ”, or “closes #XYZ” will all close issue number XYZ when they are
-merged.</li>
-</ul>
-</div>
-</div>
-</div></section><section id="aio-reviewing_pull_requests"><p>Content from <a href="reviewing_pull_requests.html">Reviewing pull-requests</a></p>
-<hr>
-<p>Last updated on 2025-07-01 |
+<p>Last updated on 2025-07-31 |
 
         <a href="https://github.com/carpentries/github-skill-up-maintainers/edit/main/episodes/reviewing_pull_requests.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -599,85 +713,112 @@ review, and when should I use each one?</li>
 <div class="card-body">
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
-<p>After following this section, participants will be ready to practice
-the following skills:</p>
+<p>After following this section, participants will be able to:</p>
 <ul>
-<li>create comments on particular lines and ranges of lines in the
-changes proposed by a pull request</li>
-<li>suggest specific changes to a pull request</li>
-<li>select the “approve”, “comment”, or “request changes” outcomes of a
-pull request review</li>
+<li>Create comments on particular lines and ranges of lines in the
+changes proposed by a pull request.</li>
+<li>Suggest specific changes to a pull request.</li>
+<li>Select the “approve”, “comment”, or “request changes” outcomes of a
+pull request review.</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 </div>
-<ul>
-<li>reviewing PRs is one of the most important tasks for a
-Maintainer</li>
-<li>the way you review a pull request, and communicate with the person
-who opened it, can have an enormous impact on their motivation to
-contribute again</li>
-<li>GitHub provides several features that can improve your experience as
+<p>Reviewing pull requests is one of the most important tasks for a
+maintainer. The way you review a pull request, and communicate with the
+person who opened it, can have an enormous impact on their motivation to
+contribute again. It also sets expectations for them and others about
+your priorities and quality standards for the project. When done well,
+reviews can be an enjoyable, educational, collaborative experience for
+both maintainer and contributor.</p>
+<p>GitHub provides several features that can improve your experience as
 a reviewer, and make it easier for contributors to follow up on your
-review</li>
-</ul>
-<section><h2 class="section-heading" id="line-by-line-comments">Line-by-Line Comments<a class="anchor" aria-label="anchor" href="#line-by-line-comments"></a>
+review.</p>
+<section><h2 class="section-heading" id="title-and-description">Title and description<a class="anchor" aria-label="anchor" href="#title-and-description"></a>
 </h2>
 <hr class="half-width">
-<ul>
-<li>see the changes proposed in a PR via the <em>Files Changed</em>
-tab</li>
-<li>if you want to comment on a particular line, hover your mouse over
-it and click the <code>+</code> symbol</li>
-<li>comments can be added on their own, or as part of a <em>Review</em>:
-a commentary on the pull request as a whole</li>
-<li>to comment on a range of lines, click-and-hold on the <code>+</code>
-for the first line in the range, and drag your cursor down the range,
-then release</li>
-</ul></section><section><h2 class="section-heading" id="suggesting-changes">Suggesting Changes<a class="anchor" aria-label="anchor" href="#suggesting-changes"></a>
+<p>A good title and description for a pull request should give the
+reviewer an immediate impression of the goal(s) and scope of the changes
+it contains. <a href="./collaborating_newcomers.html#guide-contributors-with-issue-and-pull-request-templates">Pull
+request templates, covered later</a>, are one way to help contributors
+provide this information.</p>
+</section><section><h2 class="section-heading" id="line-by-line-comments">Line-by-line comments<a class="anchor" aria-label="anchor" href="#line-by-line-comments"></a>
 </h2>
 <hr class="half-width">
-<ul>
-<li>as well as adding comments line-by-line, you can also suggest
-specific changes, e.g. to fix a typo, suggest improved wording,
-etc.</li>
-<li>take the same approach to start a comment on a line or range of
-lines, then click the “add a suggestion” button, and edit the source
-content that appears in the input box</li>
-<li>this makes it much easier for contributors to a) understand
-reviewers’ suggestions, and b) implement them</li>
-</ul></section><section><h2 class="section-heading" id="finishing-a-review">Finishing a Review<a class="anchor" aria-label="anchor" href="#finishing-a-review"></a>
+<p>The specific changes proposed in a pull request can be viewed in its
+<em>Files Changed</em> tab. It is usually most helpful to provide
+feedback and ask questions on the lines that have been changed. You can
+comment on a particular line by hovering the cursor over it and clicking
+the <code>+</code> button on the left-hand side. Comments can be added
+on their own, or as part of a <em>Review</em>: a commentary on the pull
+request as a whole. When choosing the latter, comments are only
+published after the reviewer has finished the whole review. To comment
+on a range of lines, click-and-hold the <code>+</code> button for the
+first line in the range, drag your cursor down the range, then
+release.</p>
+</section><section><h2 class="section-heading" id="suggesting-changes">Suggesting changes<a class="anchor" aria-label="anchor" href="#suggesting-changes"></a>
 </h2>
 <hr class="half-width">
+<p>As well as adding comments line-by-line, you can also suggest
+specific changes, e.g. to fix a typo, suggest improved wording, etc. To
+do this, take the same approach to start a comment on a line or range of
+lines, then click the “add a suggestion” button (plus/minus symbol
+inside a document icon), and edit the source content that appears in the
+input box with your suggested improvement. Suggesting specific changes
+makes it much easier for contributors to a) understand your suggestions,
+and b) implement them. Suggested changes will be commited to the pull
+request branch as co-authored by the pull request author and
+reviewer.</p>
+</section><section><h2 class="section-heading" id="finishing-a-review">Finishing a review<a class="anchor" aria-label="anchor" href="#finishing-a-review"></a>
+</h2>
+<hr class="half-width">
+<p>When you have finished commenting on particular lines, and suggesting
+changes, you can finish your review by clicking the “Review changes” or
+“Finish your review” button near the top-right of the screen. This is
+the place to add general comments and questions, and to summarise your
+review. If nothing else, do not forget to thank the contributor for
+taking the time to contribute! Choose one of the three options:</p>
 <ul>
-<li>when you have finished commenting on particular lines, and
-suggesting changes, you can finish your review by clicking the “Review
-changes” or “Finish your review” button near the top-right of the
-screen</li>
-<li>add general comments, a summary of your review, etc - don’t forget
-to thank them for taking the time to contribute! - and choose one of the
-three options:
-<ul>
-<li>“Comment” - a general comment, with no firm outcome. Can be used to
-complete a review before a pull request is closed.</li>
+<li>“Comment” - a general comment, with no firm outcome. This option can
+be a good choice if you plan to close the pull request after completing
+your review.</li>
 <li>“Approve” - approve the PR for merging. Some people use this when
 suggesting only very minor or optional changes - if you want to do this,
 make sure you are explicit about what changes you are suggesting etc
 before the PR can be merged</li>
 <li>“Request changes” - indicates that changes would be required to the
-PR before you would be willing to merge it.</li>
-</ul>
-</li>
-</ul>
-<div id="saved-replies" class="callout">
-<div class="callout-square">
-<i class="callout-icon" data-feather="bell"></i>
-</div>
-<div id="saved-replies" class="callout-inner">
-<h3 class="callout-title">Saved Replies</h3>
-<div class="callout-content">
+PR before you would be willing to merge it. It also requires another
+review before the changes can be merged if the <code>main</code> branch
+has been protected (see branch protection rules below).</li>
+</ul></section><section><h2 class="section-heading" id="agree-with-your-team-how-you-will-use-reviews">Agree with your team how you will use reviews<a class="anchor" aria-label="anchor" href="#agree-with-your-team-how-you-will-use-reviews"></a>
+</h2>
+<hr class="half-width">
+<p>When collaborating regularly with other developers/maintainers on a
+project, it can be helpful to discuss and agree upon when and how you
+will use pull requests and reviews in your development process. Where
+quality control and shared ownership is important, teams may prefer for
+all changes to pass through pull requests, perhaps even requiring at
+least one approving review before changes can be merged. (<a href="https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches" class="external-link">Branch
+protection rules</a> can be set in GitHub to enforce such requirements.)
+Other teams prefer less formal process, with pull requests used only
+when a team members specifically wants to invite feedback and discussion
+on their changes.</p>
+<p>However you decide to integrate pull requests into your development
+process, we recommend discussing it as a team and making agreements
+about how you will work together.</p>
+
+<div id="accordionSpoiler1" class="accordion spoiler-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button spoiler-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSpoiler1" aria-expanded="false" aria-controls="collapseSpoiler1">
+  <h3 class="accordion-header" id="headingSpoiler1">
+  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="eye"></i></div>
+  Saved Replies
+  </h3>
+</button>
+<div id="collapseSpoiler1" class="accordion-collapse collapse" data-bs-parent="#accordionSpoiler1" aria-labelledby="headingSpoiler1">
+<div class="accordion-body">
 <ul>
 <li>You can add “saved replies” to your GitHub account</li>
 <li>These can be used to automatically input a template response, on
@@ -685,6 +826,7 @@ issues, PRs, etc</li>
 <li>Use these if you find that you are often saying the same or similar
 things to people</li>
 </ul>
+</div>
 </div>
 </div>
 </div>
@@ -696,10 +838,10 @@ things to people</li>
 <h3 class="callout-title">Key Points</h3>
 <div class="callout-content">
 <ul>
-<li>What features does GitHub provide to facilitate reviewing pull
-requests?</li>
-<li>What are the different options for the outcome of a pull request
-review, and when should I use each one?</li>
+<li>Use line-specific comments and suggestions, and indicate the outcome
+of your review to help the contributor respond effectively.</li>
+<li>The “approve” and “request changes” options on a review can help the
+contributor understand if they need to take further action.</li>
 </ul>
 </div>
 </div>
@@ -708,11 +850,11 @@ review, and when should I use each one?</li>
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
-</section></section><section id="aio-resolving_conflicts"><p>Content from <a href="resolving_conflicts.html">Resolving conflicts</a></p>
+</section></section><section id="aio-collaborating_team"><p>Content from <a href="collaborating_team.html">Collaborating with your Team</a></p>
 <hr>
-<p>Last updated on 2025-07-01 |
+<p>Last updated on 2025-07-31 |
 
-        <a href="https://github.com/carpentries/github-skill-up-maintainers/edit/main/episodes/resolving_conflicts.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+        <a href="https://github.com/carpentries/github-skill-up-maintainers/edit/main/episodes/collaborating_team.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
@@ -724,9 +866,11 @@ any links that you are not going to use.
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>When might I encounter merge conflicts while maintaining/developing
-a lesson?</li>
-<li>How can I resolve simple conflicts in the GitHub web interface?</li>
+<li>How will I know when something happens or needs my attention on the
+lesson project?</li>
+<li>What communication channels should we set up to aid
+collaboration?</li>
+<li>What can we do to encourage regular progress on the project?</li>
 </ul>
 </div>
 </div>
@@ -735,72 +879,200 @@ a lesson?</li>
 <div class="card-body">
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
-<p>After following this section, participants will be ready to practice
-the following skills:</p>
+<p>After following this section, participants will be able to:</p>
 <ul>
-<li>resolve merge conflicts using the GitHub web interface</li>
+<li>Manage GitHub notifications to receive relevant updates about
+activity on their repository.</li>
+<li>Choose a routine and channels for working with collaborators on the
+project.</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="what-is-a-merge-conflict">What is a merge conflict?<a class="anchor" aria-label="anchor" href="#what-is-a-merge-conflict"></a>
+<section><h2 class="section-heading" id="staying-in-the-loop">Staying in the Loop<a class="anchor" aria-label="anchor" href="#staying-in-the-loop"></a>
 </h2>
 <hr class="half-width">
-<p>A merge conflict occurs when Git is not able to automatically
-integrate (<em>merge</em>) the changes in a branch with the version of
-the relevant file(s) into another branch (usually the default or main
-branch) of the project.</p>
-<p>Conflicts are seen when the target branch (usually <code>main</code>)
-has changed since the branch for the pull request was created. Often,
-Git is able to combine the two sets of changes without any trouble. But
-sometimes it gets stuck, and requires a human to intervene and decide
-how multiple changes should be combined, which change should take
-precedence, etc.</p>
-<p>When these conflicts arise within a file, Git marks up the file
-contents to highlight them. The conflicts looks something like this:</p>
-<pre><code>&lt;&lt;&lt;&lt;&lt;&lt;&lt; pr-branch
-this is one version of the line. it exists in the version of this file in the pr-branch branch.
-=======
-this is another version of the same line. it exists in the version of this file in the main branch.
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; main</code></pre>
-</section><section><h2 class="section-heading" id="resolving-a-merge-conflict">Resolving a Merge Conflict<a class="anchor" aria-label="anchor" href="#resolving-a-merge-conflict"></a>
+<p>GitHub provides a useful notification feature for collaborative work
+- <em>mentions</em>. The mention system notifies team members when
+somebody else references them in an issue, comment or pull request. You
+can use mentions to notify people when you want to check a detail with
+them, or let them know something has been fixed or changed (this is much
+easier than writing out all the same information again in an email!). In
+repositories belonging to an <em>organisation</em> rather than an
+individual user, <em>Teams</em> of users can be created and mentioned
+collectively, sending a notification to all its individual members.</p>
+<p>Typing <code>@</code> in GitHub will bring up a list of all accounts
+and teams linked to the repository that can be mentioned. You can also
+mention people who aren’t linked with the repository, but they won’t be
+listed in the <code>@</code> drop-down list so you will need to know
+their GitHub username in order to mention them.</p>
+<div class="section level3">
+<h3 id="when-will-i-be-notifed">When Will I Be Notifed?<a class="anchor" aria-label="anchor" href="#when-will-i-be-notifed"></a>
+</h3>
+<p>By default, a user will be notified when they are mentioned, assigned
+an issue, asked to review something, and when some activity occurs on an
+issue or pull request that they opened or commented on previously. These
+settings can be adjusted for individual projects via a dropdown on the
+landing page of the repository.</p>
+<figure><img src="fig/github-watch-settings.png" alt="GitHub's different notification settings menu when watching repository events with 'All Activity' highlighted" class="figure mx-auto d-block"><div class="figcaption">GitHub’s different notification settings menu
+when watching repository events with ‘All Activity’ highlighted</div>
+</figure><p>You can choose to ignore a project, meaning that GitHub will never
+notify you about activity on that repository even if you are mentioned
+directly. Or you might prefer to “watch” the project, receiving updates
+on any activity on the repository e.g. whenever somebody opens a new
+issue or pull request, or comments on an existing one. There is also the
+option to further customise notifications.</p>
+<div class="section level4">
+<h4 id="how-will-i-be-notified">How Will I Be Notified?<a class="anchor" aria-label="anchor" href="#how-will-i-be-notified"></a>
+</h4>
+<p>In the settings for your GitHub account, you can also choose where
+these notifications will appear. GitHub can send you emails to multiple
+addresses or add notifications to <a href="https://github.com/notifications" class="external-link">an “inbox” page</a> in the
+GitHub web interface. You can configure where you want different kinds
+of notifications to be sent, and even customise these settings from
+project to project.</p>
+<div id="accordionSpoiler1" class="accordion spoiler-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button spoiler-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSpoiler1" aria-expanded="false" aria-controls="collapseSpoiler1">
+  <h3 class="accordion-header" id="headingSpoiler1">
+  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="eye"></i></div>
+  Managing GitHub Notifications
+  </h3>
+</button>
+<div id="collapseSpoiler1" class="accordion-collapse collapse" aria-labelledby="headingSpoiler1" data-bs-parent="#accordionSpoiler1">
+<div class="accordion-body">
+<p>If you work on multiple projects, or the projects you follow on
+GitHub are particularly active, the volume of notifications you receive
+can quickly become overwhelming. Here are some approaches you can take
+to help you stay on top of things, and distinguish the high-priority
+tasks and important updates from the regular traffic.</p>
+<div class="section level5">
+<h5 id="email-notifications">Email Notifications<a class="anchor" aria-label="anchor" href="#email-notifications"></a>
+</h5>
+<p>If you want to filter, organise, and redirect email notifications
+from GitHub, here are some characteristics of the messages that you make
+use of:</p>
+<ul>
+<li>All GitHub notifications are sent from the address
+<code>notifications@github.com</code>.</li>
+<li>Notification emails are sent to the address
+<code>repo-name@noreply.github.com</code>, where <code>repo-name</code>
+is the name of the repository where the notification was triggered.</li>
+<li>The email subject begins with <code>[org-or-user/repo-name]</code>,
+where <code>org-or-user</code> is the name of the organisation or the
+username of the user who owns the repository and <code>repo-name</code>
+is the name of the repository where the notification was triggered.</li>
+<li>In addition to your email address, the cc field of the message
+contains an address that describes the type of event that triggered the
+notification.
+<ul>
+<li>
+<code>author@noreply.github.com</code> for activity on an issue or
+pull request that you opened.</li>
+<li>
+<code>mention@noreply.github.com</code> for a mention of your
+username.</li>
+<li>
+<code>team-mention@noreply.github.com</code> for a mention of a team
+you are a member of.</li>
+</ul>
+</li>
+<li>The email header (metadata) includes a <code>mailing-list</code>
+field with an identifier in the form
+<code>repo-name.org-or-user.github.com</code>, which can be used to
+filter by the project and/or its owner.</li>
+</ul>
+<p><a href="https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications#filtering-email-notifications" class="external-link">GitHub
+provides detailed documentation about all of the properties you can use
+to filter their notification emails</a>.</p>
+<p>Most email clients provide configuration for rules that can be set to
+redirect messages to particular folders, and/or to annotate them with a
+mark or flag, based on this kind of information. <a href="https://support.google.com/mail/answer/6579?hl=en" class="external-link">Here is the
+documentation for setting such rules in Gmail</a>.</p>
+</div>
+<div class="section level5">
+<h5 id="notifications-on-github-com">Notifications on GitHub.com<a class="anchor" aria-label="anchor" href="#notifications-on-github-com"></a>
+</h5>
+<p>The GitHub notifications inbox page includes several preconfigured
+filters:</p>
+<ul>
+<li>Group notifications by repository.</li>
+<li>Review notifications for a particular repository.</li>
+<li>Review particular types of notification e.g. mentions, issue
+assignments, etc.</li>
+</ul>
+<p>You can also create your own, more sophisticated filters, using the
+search bar, e.g. all mentions for all repositories in a particular
+organisation.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>Whatever strategy you choose, one of the most important habits that
+will help you stay on top of your projects and tasks is to remember to
+check these notifications frequently.</p>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="working-together">Working Together<a class="anchor" aria-label="anchor" href="#working-together"></a>
 </h2>
 <hr class="half-width">
-<p>Before the PR can be merged, someone (usually the contributor who
-opened the pull request, or one of the repository Maintainers) needs to
-resolve each of these conflicts by:</p>
-<ol style="list-style-type: decimal">
-<li>Figuring out which version (or combination of versions) of the lines
-should be kept in the file.</li>
-<li>Removing all other lines (including the <code>&lt;</code>,
-<code>=</code>, and <code>&gt;</code> symbols) to leave only that
-resolved version.</li>
-</ol>
-<p>After that has been done, and no conflicts remain to be resolved, the
-branch can be updated, bringing it back in line with the changes in the
-target branch.</p>
-<p>GitHub provides an interface to help you do this, with buttons for
-quick navigation between multiple conflicts, highlighting of the
-conflicting parts of the file, etc.</p>
-<div id="larger-conflicts" class="callout">
-<div class="callout-square">
-<i class="callout-icon" data-feather="bell"></i>
+<div class="section level3">
+<h3 id="talking-to-each-other">Talking to Each Other<a class="anchor" aria-label="anchor" href="#talking-to-each-other"></a>
+</h3>
+<p>In addition to tracking and responding to activity on your
+repository, effective teams typically maintain other channels of
+communication. These channels can be useful for more informal
+communication and back-and-forth discussion that is less suitable for a
+public discussion thread on GitHub.</p>
+<p><a href="https://slack.com/" class="external-link">Slack</a> is commonly used in the
+Carpentries community for quick, day-to-day message exchange. You should
+<a href="https://slack-invite.carpentries.org/" class="external-link">join the Carpentries
+Slack workspace</a> to connect with other lesson developers. Once you
+join, you can join the <code>lesson-dev</code> channel, which is
+dedicated to discussion of lesson development, and create a channel for
+your own project under <a href="https://carpentries.slack.com/" class="external-link">the
+Carpentries public Slack workspace</a>. If you need more complex team
+communications (e.g. multiple channels) you can create your own <a href="https://slack.com/intl/en-gb/" class="external-link">Slack workspace</a>. Workspaces can
+be created for free but carry some restrictions e.g. on message volume
+and history, and file storage. The Carpentries Slack is an enterprise
+workspace and is not subject to these limits.</p>
+<p>Collaborators may also choose other platforms to discuss lesson
+development or receive contributions from newcomers who are not yet
+fluent in using GitHub’s systems of communication. The Carpentries can
+assist with creating a mailing list specific to the development of your
+lesson on our <a href="https://carpentries.topicbox.com/" class="external-link">TopicBox</a>
+platform for managing threaded email discussions. Also make sure to join
+the <a href="https://carpentries.topicbox.com/groups/incubator-developers" class="external-link">Incubator
+lesson developers mailing list</a> on TopicBox to keep an eye on
+announcements and discussions relating to lesson development within the
+Carpentries community.</p>
+<p>The exact channels and cadance of your communication will largely
+depend on the personal preferences of your team members. The best thing
+you can do is devote time in an upcoming meeting/coworking session to
+discuss and agree on where and how you will communicate about the
+project.</p>
 </div>
-<div id="larger-conflicts" class="callout-inner">
-<h3 class="callout-title">Larger Conflicts</h3>
-<div class="callout-content">
-<p>Sometimes the conflicts between branches will be too large or too
-complex to be resolved within the GitHub web interface. In these cases,
-the conflicts will need to be resolved on the command line.</p>
-<p>GitHub provides <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line" class="external-link">a
-guide to resolving conflicts on the command line</a>, and other tools
-exist to help with merging and resolving conflicts.</p>
-</div>
-</div>
-</div>
-
+<div class="section level3">
+<h3 id="making-progress">Making Progress<a class="anchor" aria-label="anchor" href="#making-progress"></a>
+</h3>
+<p>The following practices have been shown to help maintain steady
+progress with lesson development:</p>
+<ul>
+<li>Being responsive to notifications about activities and
+mentions.</li>
+<li>Scheduling regular co-working/<a href="reference.html#glossary">sprinting</a> sessions with team members
+(e.g attaching your sprint sessions to other open source community
+activities, which may offer goodies, rewards and prizes for
+participants, can provide motivation and activity spikes).</li>
+<li>Working alongside other members of The Carpentries community at
+Maintainer or lesson development co-working sessions.</li>
+<li>Blocking time in your calendar for issue triage/solo material
+writing.</li>
+<li>Planning lesson pilots in advance to help set targets.</li>
+</ul>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -809,10 +1081,11 @@ exist to help with merging and resolving conflicts.</p>
 <h3 class="callout-title">Key Points</h3>
 <div class="callout-content">
 <ul>
-<li>You may encounter merge conflicts in large pull requests and those
-that have been open for some time.</li>
-<li>GitHub provides an interface to resolve simple conflicts in the
-GitHub web interface.</li>
+<li>GitHub’s notification settings can be customised to provide the
+updates you need in the places where you want them.</li>
+<li>Effective communication is essential to good collaboration.</li>
+<li>Regular progress can be achieved by ensuring your team members have
+frequent opportunities to discuss the project.</li>
 </ul>
 </div>
 </div>
@@ -821,6 +1094,350 @@ GitHub web interface.</li>
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
+</div>
+</section></section><section id="aio-collaborating_newcomers"><p>Content from <a href="collaborating_newcomers.html">Collaborating with Newcomers</a></p>
+<hr>
+<p>Last updated on 2025-07-31 |
+
+        <a href="https://github.com/carpentries/github-skill-up-maintainers/edit/main/episodes/collaborating_newcomers.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>What can I do to attract contributors to my project?</li>
+<li>How can I help them make good contributions when they get
+there?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<p>After following this section, participants will be able to:</p>
+<ul>
+<li>Adjust a repository to attract potential new collaborators.</li>
+<li>Create and modify issue and pull request templates in GitHub.</li>
+<li>Identify channels they can use to attract contributions from
+relevant community members.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="maintain-a-welcoming-repository">Maintain a welcoming repository<a class="anchor" aria-label="anchor" href="#maintain-a-welcoming-repository"></a>
+</h2>
+<hr class="half-width">
+<p>It is important to make collaborative projects as welcoming for
+newcomers and as easy to get involved in as possible.</p>
+<div class="section level3">
+<h3 id="document-your-project">Document your project<a class="anchor" aria-label="anchor" href="#document-your-project"></a>
+</h3>
+<p>One way to make sure you achieve this is to spend time on
+‘external-facing’ features, such as documentation, that will make the
+project more accessible to newcomers. Such documentation will be useful
+to yourself and other team members as well, e.g. if you are trying to
+come back to the project after a break or are reusing it for a new
+collaboration in the future.</p>
+<p>Your lesson documentation should contain the following information,
+which should be kept up to date:</p>
+
+<ul>
+<li>A structured, up-to-date README. The README, often a
+<code>README.md</code> or <code>README.txt</code> file, represents the
+first piece of documentation that people will find when they arrive at
+your lesson repository. You should aim to capture all the information
+that a potential contibutor or user might need to understand what the
+project is and how to work with it. Consider including the following
+information:
+<ul>
+<li><strong>lesson title</strong></li>
+<li><strong>lesson description</strong></li>
+<li>
+<strong>Information about how to use the project</strong> – This
+might be a link to the rendered version of the lesson or to further
+documentation, or installation instructions and some examples of
+usage.</li>
+<li>
+<strong>List of current maintainers</strong> – Let people know who
+is responsible for the project and how to contact them.</li>
+<li>
+<strong>Contributing information</strong> – Summarise the kinds of
+contributions you are (or are not) seeking and how to get involved,
+linking to the repository <code>CONTRIBUTING.md</code> file for more
+details.</li>
+<li>
+<strong>Credits/acknowledgements</strong> – Acknowledging past
+maintainers and others who have helped build the project and templates
+and resources you have used and adapted gives would-be contributors
+confidence that their efforts will be credited too.</li>
+<li>
+<strong>Citation</strong> – Tell people how they should cite your
+project. This could be a summary of the detailed information you provide
+in a separate <code>CITATION.cff</code> file (see below).</li>
+<li>
+<strong>License</strong> – Summarise the licensing terms of the
+project, linking to the project’s full license file (see below).</li>
+</ul>
+</li>
+<li>An up-to-date <code>CITATION.cff</code> file. – A file containing
+information about the authors of the project, other projects and
+resources it is based on or refers to, its license, the DOI of the
+latest version, etc, in <a href="https://github.com/citation-file-format/citation-file-format" class="external-link">Citation
+File Format (CFF)</a> (a specialised kind of YAML file). If your lesson
+repository contains a <code>CITATION.cff</code> file, GitHub will
+automatically show the citation information in the sidebar. CFF is also
+recognised and supported by other platforms including <a href="https://zenodo.org/" class="external-link">Zenodo</a> and the <a href="https://www.zotero.org/" class="external-link">Zotero reference manager</a>.</li>
+<li>
+<code>CONTRIBUTING.md</code> – A contributing guide describing how
+people can send their contributions, what kinds of contribution will be
+credited and in what ways. Carpentries lesson repositories already have
+a generic Carpentries <code>CONTRIBUTING.md</code> file to get you
+started, which you should review and modify to fit the needs of your
+project and team.</li>
+<li>
+<code>LICENSE.md</code> – A file containing the licensing terms of
+the project, including the conditions under which others may re-use,
+adapt, and distribute its contents. Without a license other people
+cannot use your material at all. Use GitHub’s license choosing tool or
+find another pre-existing license that fits your needs (e.g. from
+Creative Commons). Do not write your own!</li>
+</ul>
+<div id="accordionSpoiler1" class="accordion spoiler-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button spoiler-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSpoiler1" aria-expanded="false" aria-controls="collapseSpoiler1">
+  <h3 class="accordion-header" id="headingSpoiler1">
+  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="eye"></i></div>
+  Templates for lesson developers
+  </h3>
+</button>
+<div id="collapseSpoiler1" class="accordion-collapse collapse" data-bs-parent="#accordionSpoiler1" aria-labelledby="headingSpoiler1">
+<div class="accordion-body">
+<p>We have prepared the following templates to help lesson developers
+get started with writing the README and contributing guide for their
+project:</p>
+<ul>
+<li><a href="https://github.com/carpentries/lesson-development-training/blob/main/files/templates/README-template.md?plain=1" class="external-link"><code>README.md</code>
+template</a></li>
+<li><a href="https://github.com/carpentries/lesson-development-training/blob/main/files/templates/CONTRIBUTING-template.md?plain=1" class="external-link"><code>CONTRIBUTING.md</code>
+template</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="digital-object-identifiers" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div id="digital-object-identifiers" class="callout-inner">
+<h3 class="callout-title">Digital Object Identifiers</h3>
+<div class="callout-content">
+<p>We recommend that lesson developers obtain a <a href="https://the-turing-way.netlify.app/communication/citable/citable-steps.html?highlight=doi#dois" class="external-link">Digital
+Object Identifier (DOI)</a> as soon as feels appropriate, at the latest
+when the lesson reaches the beta phase. You can use this DOI in the
+citation information (e.g. <a href="https://github.com/citation-file-format/citation-file-format/blob/main/schema-guide.md#identifiers" class="external-link">in
+the <code>identifiers</code> field of your
+<code>CITATION.cff</code></a>), to allow people to cite a particular
+version of your lesson, e.g. a snapshot of the lesson when it entered
+beta testing, captured as a Zenodo record.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="section level3">
+<h3 id="cultivate-and-present-a-welcoming-project-culture">Cultivate and present a welcoming project culture<a class="anchor" aria-label="anchor" href="#cultivate-and-present-a-welcoming-project-culture"></a>
+</h3>
+<p>Many potential contributors will “lurk” on an open source project
+before making their first contribution and many occasional contributors
+are probably paying attention to activity on the repository too. People
+often feel intimidated about contributing to a project for the first
+time and anything you can do to reduce that barrier and encourage them
+to participate will help you grow the community around your project.</p>
+<div class="section level4">
+<h4 id="be-intentional-about-your-public-communications">Be intentional about your public communications<a class="anchor" aria-label="anchor" href="#be-intentional-about-your-public-communications"></a>
+</h4>
+<p>All projects have a culture, much of which will be visible on a
+public GitHub repository, whether maintainers try to actively establish
+and nurture it or not. Investing time and energy in communicating in a
+polite and friendly way, even among a small group of team members who
+collaborate with each other all the time, shows newcomers how they can
+expect to be received when they make their first contribution. Modeling
+respectful behaviour between maintainers demonstrates something
+important about the culture of your project to anybody watching (or
+looking back at past discussion threads).</p>
+<p>Discuss with your team members how you want to work together then
+document those norms and work to maintain them.</p>
+</div>
+<div class="section level4">
+<h4 id="be-responsive">Be responsive<a class="anchor" aria-label="anchor" href="#be-responsive"></a>
+</h4>
+<p>It helps to process and respond to contributions quickly, especially
+when somebody is participating in the project for the first time. Longs
+delays between opening an issue or pull request and a first response
+from a maintainer can be demotivating. Similarly, after waiting a long
+time for a response, the contributor may no longer have time to follow
+up, having moved on to other tasks and projects.</p>
+<p>Make sure that you have <a href="./collaborating_team.html#staying-in-the-loop">configured
+notifications for your project</a> so that you will know about it when
+somebody gets involved.</p>
+</div>
+<div class="section level4">
+<h4 id="say-no-when-you-need-to">Say <em>“no”</em> when you need to<a class="anchor" aria-label="anchor" href="#say-no-when-you-need-to"></a>
+</h4>
+<p>Not every contribution is a good fit for a project and you probably
+will not want to accept every suggested change, especially in the later
+stages of its development. If you receive a pull request or issue that
+does not fit your lesson, consider the following points to help you
+politely decline without demotivating the contributor:</p>
+<ol style="list-style-type: decimal">
+<li>
+<strong>Thank them</strong> for taking the time to contribute.</li>
+<li>
+<strong>Explain why the contribution does not fit</strong> into the
+lesson, and offer suggestions for improvement if you’re able to.</li>
+<li>
+<strong>Link to relevant documentation</strong>, if you have it.
+Notes about the design and scope of the project and any relevant
+discussion threads can be very helpful here. If you notice similar
+repeated requests/contributions, you might want to address them in your
+documentation (e.g. in the <code>CONTRIBUTING.md</code> file) to save
+yourself time in future.</li>
+<li>
+<strong>Close the request</strong>.</li>
+</ol>
+<p>The advice above is taken from <a href="https://carpentries.github.io/maintainer-onboarding/02-communicate-contributors.html" class="external-link">The
+Carpentries Maintainer Onboarding curriculum</a>, and based on <a href="https://opensource.guide/best-practices/#learning-to-say-no" class="external-link">the
+<em>Best Practices for Maintainers</em> guide from GitHub</a>.</p>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="encourage-impactful-contributions">Encourage impactful contributions<a class="anchor" aria-label="anchor" href="#encourage-impactful-contributions"></a>
+</h2>
+<hr class="half-width">
+<p>Your project will benefit most when newcomers make meaningful
+contributions and they will feel more motivated to get involved when
+they can see that their contributions will be welcomed and make an
+impact.</p>
+<div class="section level3">
+<h3 id="boost-visibility-for-newcomers">Boost visibility for newcomers<a class="anchor" aria-label="anchor" href="#boost-visibility-for-newcomers"></a>
+</h3>
+<p>Anything you can do to draw attention to issues where new
+contributions would be easy and/or particularly impactful can help to
+get newcomers involved in your project. The Carpentries provides a
+number of ways to further raise the visibility of the lesson among the
+broader community and encourage community members to contribute to its
+further development.</p>
+<ul>
+<li>Maintaining a list of issues with the <code>help wanted</code> and
+<code>good first issue</code> labels from lesson repositories on <a href="https://carpentries.org/help-wanted-issues/" class="external-link">The Carpentries
+website</a>. Projects in The Carpentries Incubator and Carpentries Lab
+can opt into including their issues in the Help Wanted Issues page by
+adding the <code>helpwanted-list</code> topic to their GitHub
+repository.</li>
+<li>Featuring projects in <a href="https://docs.carpentries.org/handbooks/lesson_developers.html#promoting-your-project-in-the-incubator-lesson-spotlight" class="external-link">The
+Carpentries blog and newsletter</a>.</li>
+<li>Helping maintainers organise and promote collaborative development
+sessions for their projects.</li>
+</ul>
+<p>The examples listed above can be adapted to other project settings:
+the important takeaway message is that maintainers should invest time in
+outreach, rather than passively hoping for newcomers to spontaneously
+appear.</p>
+<p>The Carpentries community handbook includes a set of <a href="https://docs.carpentries.org/resources/curriculum/lesson-sprint-recommendations.html" class="external-link">recommendations
+for organising and running a lesson sprint</a>, most of which applies
+equally well to the co-creation of other kinds of (open source)
+projects.</p>
+</div>
+<div class="section level3">
+<h3 id="curate-issues-on-your-repository">Curate issues on your repository<a class="anchor" aria-label="anchor" href="#curate-issues-on-your-repository"></a>
+</h3>
+<p>Long discussion threads with no clear resolution or action steps can
+be another barrier for would-be contributors to overcome. One good
+technique for maintainers to mitigate this is to periodically summarise
+the current state of a discussion, to make it easier for newcomers to
+understand what is needed to make progress on a given issue or pull
+request. (Other contributors may find this helpful too!) As the context
+and details of an issue change and become clearer over time, it can be
+similarly helpful to adjust the title and opening comment of the
+discussion. Bear in mind that editing an existing comment will not
+trigger a notification to those subscribed to the thread in the same way
+that a new comment would: you should post a new comment to make sure
+that everyone involved is aware of your changes.</p>
+</div>
+<div class="section level3">
+<h3 id="guide-contributors-with-issue-and-pull-request-templates">Guide contributors with issue and pull request templates<a class="anchor" aria-label="anchor" href="#guide-contributors-with-issue-and-pull-request-templates"></a>
+</h3>
+<p><a href="https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository" class="external-link">Templates
+for new issues and pull requests</a> can guide newcomers and experienced
+contributors to provide the information you need to be able to process
+and respond to their contributions efficiently.</p>
+<p>A pull request template specifies Markdown content that will be
+present by default in the description box of any new pull request on the
+project. Use it to prompt contributors to provide any information that
+will help you process and review their proposed changes. Issue templates
+can also contain a default description for a new issue or define a more
+structured set of prompts for contributors to respond to by templating a
+form that contributors must complete to open an issue.</p>
+<p>Multiple templates can be specified for issues and pull requests on a
+project, providing different guidance for contributors making different
+kinds of contributions (e.g. reporting a bug, asking a question,
+providing feedback from a pilot workshop, etc).</p>
+<p>Issue and pull request templates are kept in the <code>.github</code>
+folder of a repository. (<a href="https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file#creating-a-repository-for-default-files" class="external-link">Templates
+can also be configured at the organization level</a>.)</p>
+<p>Issue form templates are specified with YAML and saved with the
+<code>.yml</code> filename extension. GitHub’s web interface has some
+built-in checks and syntax highlighting to help you compose them. Pull
+request templates and non-form issue templates are written as Markdown
+files (<code>.md</code> extension) with metadata such as default labels
+and assignee for the resulting issue specified as YAML front matter at
+the top of the file. <a href="https://github.com/swcarpentry/.github" class="external-link">The issue and pull request
+templates used in most Carpentries projects</a> could be a good starting
+point for your project.</p>
+<div id="further-readingviewing" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div id="further-readingviewing" class="callout-inner">
+<h3 class="callout-title">Further reading/viewing</h3>
+<div class="callout-content">
+<p>Consult <a href="further-reading.html">our list of recommended
+resources</a> to continue your learning on all the topics discussed in
+this skill-up!</p>
+</div>
+</div>
+</div>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Key Points</h3>
+<div class="callout-content">
+<ul>
+<li>Encourage newcomers to get involved by maintaining good
+documentation and a welcoming atmosphere in your project.</li>
+<li>Help contributors make an impact on your project with detailed
+issues, issue and pull request templates, and a detailed contributing
+guide.</li>
+</ul>
+</div>
+</div>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</div>
 </section></section>
 </div>
     </main>
@@ -869,8 +1486,8 @@ any links that you are not going to use.
   "url": "https://carpentries.github.io/github-skill-up-maintainers/aio.html",
   "identifier": "https://carpentries.github.io/github-skill-up-maintainers/aio.html",
   "dateCreated": "2023-03-08",
-  "dateModified": "2025-07-29",
-  "datePublished": "2025-07-29"
+  "dateModified": "2025-07-31",
+  "datePublished": "2025-07-31"
 }
 
   </script><script>

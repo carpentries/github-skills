@@ -57,9 +57,9 @@ contact: 'tobyhodges@carpentries.org'
 # Order of episodes in your lesson
 episodes:
 - managing_issues.md
-- referencing_pull_requests_issues.md
 - reviewing_pull_requests.md
-- resolving_conflicts.md
+- collaborating_team.md
+- collaborating_newcomers.md
 
 # Information for Learners
 learners: 
