@@ -6,7 +6,7 @@ This skill-up teaches some of GitHub's features and the skills for more effectiv
 It is designed primarily as a resource for skill-up leaders, but may also be useful for self-directed learning.
 The skill-up is taught with example lesson repositories in GitHub but the principles and skills covered are transferable to other repository hosting systems such as GitLab.
 
-We recommend that skill-up leaders use [the Instructor View](./instructor/index.html) of this lesson.
+We recommend that skill-up leaders use [the Instructor View](./instructor/) of this lesson.
 
 ## Target Audience
 This skill-up is aimed at Carpentries community members who want to use GitHub’s features to manage their lesson project more effectively. 
