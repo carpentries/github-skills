@@ -23,5 +23,4 @@ After following this skill-up, participants will be able to:
 This repository is maintained by [Toby Hodges](https://github.com/tobyhodges).
 
 ## Contact
-For any questions contact team@carpentries.org
-
+For any questions [contact team@carpentries.org](mailto:team@carpentries.org).
