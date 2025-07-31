@@ -16,10 +16,10 @@ exercises: 0
 
 After following this section, participants will be able to:
 
-- explain the value of labelling issues.
-- apply labels to issues.
-- explore the set of labels recommended by The Carpentries.
-- create milestones to help plan and track progress on their project.
+- Explain the value of labelling issues.
+- Apply labels to issues.
+- Explore the set of labels recommended by The Carpentries.
+- Create milestones to help plan and track progress on their project.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -32,11 +32,11 @@ A good first step to take in these circumstances is _issue triage_: time spent p
 ::: callout
 
 ## The Value of Teamwork
-Note that this triage process is usually made much easier, more efficient, and more fun when co-Maintainers of a lesson can meet synchronously to work through issues and pull requests together.
+This triage process is usually made much easier, more efficient, and more fun when co-Maintainers of a lesson can meet synchronously to work through issues and pull requests together.
 
-Community members have reported positive experience with short, regularly scheduled e.g. monthly coworking sessions with their Maintainer team, using screen-sharing and focussed discussion to distribute tasks and collaboratively determine how to process and respond to contributions on their repositories.
+Community members have reported positive experience with short, regularly scheduled (e.g. monthly) coworking sessions with their Maintainer team, using screen-sharing and focussed discussion to distribute tasks and collaboratively determine how to process and respond to contributions.
 
-It can also be a good opportunity for Maintainers to get know each other better, and to share their skills and experience with Git, GitHub, and the lesson infrastructure.
+It can also be a good opportunity for Maintainers to get to know each other better, and to share their skills and experience with using Git, GitHub, and the lesson infrastructure.
 
 :::
 
@@ -46,7 +46,7 @@ Labels are tags that can be applied to issues (and pull requests), annotating th
 When labels are applied to an issue, they appear next to it in the issue listing for the repository.
 Clicking on a label will show you a list of all issues with that label.
 
-When returning to a lesson repository after some time away, labels applied to old issues can help to remind you of the context for each of those, and labels can be added/updated as you triage the issue list.
+When returning to a lesson repository after some time away, labels applied to old issues can help to remind you of their context, and labels can be added or updated as you triage the issue list.
 
 ### Carpentries Issue Labels
 The Carpentries maintains [an expanded set of issue labels](https://docs.carpentries.org/resources/curriculum/issue-labels.html), which is larger than the default set provided by GitHub and intended to provide a more precise categorisation of issues typically encountered with a lesson. 
@@ -72,8 +72,8 @@ However, in some circumstances, you may want to bring particular items to the at
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::: spoiler
 
-### For Carpentries Maintainers: Refer to CAC
-When you want or need to [refer an issue/contribution to the Curriculum Advisory Committee](https://carpentries.github.io/maintainer-onboarding/04-communicate-advisors.html) for your lesson, you should add the `status:refer to cac` label, and tag the CAC in the relevant issue/pull request discussion thread (e.g. `@datacarpentry/curriculum-advisors-image`).
+### For Maintainers of official Carpentries lessons: Refer to CAC
+When you want or need to [refer an issue/contribution to the Curriculum Advisory Committee](https://carpentries.github.io/maintainer-onboarding/04-communicate-advisors.html) for your lesson, you should add the `status:refer to cac` label, and mention the CAC in the relevant issue/pull request discussion thread (e.g. `@datacarpentry/curriculum-advisors-image`).
 
 Adding this label will help members of the CAC more easily identify and browse through the items they need to discuss, increasing the likelihood that you will receive a timely response.
 
@@ -81,14 +81,13 @@ Adding this label will help members of the CAC more easily identify and browse t
 
 ### Help Wanted & Good First Issue
 The `help wanted` and `good first issue` labels can be useful to draw attention from new contributors.
-In particular, the `help wanted` label can be used to flag up issues that the Maintainers would particularly appreciate external support on.
-Issues with this label in any of The Carpentries official lesson repositories will appear in the listing on [the _Help Wanted Issues_ page of the website](https://carpentries.org/help-wanted-issues/), where new community members are often directed to find opportunities to contribute to a lesson repository.
+In particular, the `help wanted` label can be used to flag issues that the Maintainers would particularly appreciate external support on.
 
 The `good first issue` label is used to identify issues that do not require in-depth knowledge of the project and its infrastructure, etc.
 Newcomers to the project can use this label to find opportunities to make their first contribution.
 GitHub provides a view of all of a repository's issues with the `good first issue` label on the `/contribute` page for that repository, e.g. https://github.com/github/docs/contribute
 
-::: callout
+::: spoiler
 
 ### Batch Labelling
 Labels can be applied to issues in batches from the issue listing page.
@@ -98,22 +97,22 @@ Check the box next to each issue you want to apply a given label to, then click 
 
 ## Planning Your Next Iteration
 Developing a lesson is a project and, like most projects, it consists of multiple tasks. 
-Keeping track of the list of tasks the team has to do, progress on each, prioritising tasks for future development, sprints and releases, etc.,  quickly becomes a non-trivial task in itself. 
+Keeping track of the list of tasks the team has to do, their progress on each, prioritising tasks for future development, sprints and releases, etc.,  quickly becomes a non-trivial task in itself. 
 Without a project management tool/framework, it can be hard to keep track of what’s done, or what needs doing, and particularly difficult to convey that to others in the team or share the responsibilities.
 
 Different tools and platforms exist to help you with project planning and management -- 
 for example, [Asana](https://www.asana.com), [Trello](https://www.trello.com), [Miro](https://miro.com/), GitHub itself, even sticky notes on a white board. 
-Different tools will work best for different teams of collaborators, but making sure you use any tool to plan and manage work on your lesson development project is better than making it up as you go along.
+Different tools will work best for different teams of collaborators, but making sure you use a tool to plan and manage work on your lesson development project is better than making it up as you go along.
 
 ### Milestones
-Carpentries lessons are developed in GitHub so it is convenient (but not a must) to use its features to keep track of different components of the project and their current status. 
+Carpentries lessons are developed in GitHub so it is convenient to use its features to keep track of different components of the project and their current status. 
 
 GitHub offers two features for task/project management: _Projects_ and _Milestones_.
 Projects offer a more advanced set of functions and are particularly useful when you need to work on related tasks spread across multiple repositories.
 [Milestones](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones) are comparatively simple and a great place to start, especially if your efforts are focused on a single repository.
 The focus will be on Milestones in this session but we recommend that you [learn more about Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) if you want to take advantage of the full range of GitHub's features for project management.
 
-Milestones are a way of organising issues on your project into smaller units of work (e.g. deliverables) that have deadlines and progress of which needs to be closely tracked (e.g. release management). 
+Milestones are a way of organising issues on your project into smaller units of work (e.g. deliverables) that have deadlines and the progress of which needs to be closely tracked (e.g. release management). 
 They are good for managing time-bound, structured iterations and working in short sprints on batches of issues, which makes them a great fit for [the iterative process of lesson development recommended in Collaborative Lesson Development Training](https://carpentries.github.io/lesson-development-training/lesson-design.html). 
 
 Here are some helpful features of Milestones:
@@ -168,7 +167,7 @@ Renata Curty, Research Facilitator for Social Sciences at UCSB, describes her gr
 
 ### Referencing issues
 It can be helpful to refer to issues and pull requests in conversations elsewhere in a repository.
-Every issue and PR has a unique number (based on the order in which they were created).These numbers can be used, preceded by `#`, to reference a given issue or PR.
+Every issue and PR has a unique number (based on the order in which they were created). These numbers can be used, preceded by `#`, to reference a given issue or PR.
 
 Additionally, pull requests (and commit messages) that include particular phrases will trigger the automatic closure of an issue:
 
@@ -176,7 +175,7 @@ Additionally, pull requests (and commit messages) that include particular phrase
 - "fixes"
 - "resolves"
 
-One of the above words followed with the `#` and the number of an issue, e.g. _"fixes #34"_, included in the description of a pull request (the first comment in the PR discussion thread) will tell GitHub that the issue can be automatically closed if/when the pull request is merged.
+One of the above words followed with the `#` and the number of an issue, e.g. _"fixes #34"_, included in the description of a pull request (the first comment in the PR discussion thread) will tell GitHub that the issue can be automatically closed if the pull request is merged.
 
 ::::::::::::::::::::::::::::::::::::::
 
