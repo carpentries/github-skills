@@ -285,6 +285,18 @@
 </div>
 <!--/div.accordion-flush-->
 
+<div class="accordion accordion-flush" id="accordionFlush6">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading6">
+        <a href="dev-ide.html">5. Working in the github.dev IDE</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
                 </div>
               </div>
             </div>
@@ -447,7 +459,7 @@ from one of our repository templates</a>.</p>
   Example Issues
   </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
 <div class="accordion-body">
 <p>Use your example repository to demonstrate how to label issues, and
 to discuss the appropriate use of some important labels here.</p>
@@ -485,7 +497,7 @@ attention of community members.</p>
   For Maintainers of official Carpentries lessons: Refer to CAC
   </h3>
 </button>
-<div id="collapseSpoiler1" class="accordion-collapse collapse" aria-labelledby="headingSpoiler1" data-bs-parent="#accordionSpoiler1">
+<div id="collapseSpoiler1" class="accordion-collapse collapse" data-bs-parent="#accordionSpoiler1" aria-labelledby="headingSpoiler1">
 <div class="accordion-body">
 <p>When you want or need to <a href="https://carpentries.github.io/maintainer-onboarding/04-communicate-advisors.html" class="external-link">refer
 an issue/contribution to the Curriculum Advisory Committee</a> for your
@@ -520,7 +532,7 @@ label on the <code>/contribute</code> page for that repository, e.g. <a href="h
   Batch Labelling
   </h3>
 </button>
-<div id="collapseSpoiler2" class="accordion-collapse collapse" aria-labelledby="headingSpoiler2" data-bs-parent="#accordionSpoiler2">
+<div id="collapseSpoiler2" class="accordion-collapse collapse" data-bs-parent="#accordionSpoiler2" aria-labelledby="headingSpoiler2">
 <div class="accordion-body">
 <p>Labels can be applied to issues in batches from the issue listing
 page. Check the box next to each issue you want to apply a given label
@@ -849,7 +861,7 @@ about how you will work together.</p>
   Reviewing Example Pull Requests
   </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
 <div class="accordion-body">
 <p>Use the example repository to show an example of reviewing a pull
 request, demonstrating:</p>
@@ -883,7 +895,7 @@ browser interface (see the Instructor Note for the next episode).</li>
   Saved Replies
   </h3>
 </button>
-<div id="collapseSpoiler1" class="accordion-collapse collapse" aria-labelledby="headingSpoiler1" data-bs-parent="#accordionSpoiler1">
+<div id="collapseSpoiler1" class="accordion-collapse collapse" data-bs-parent="#accordionSpoiler1" aria-labelledby="headingSpoiler1">
 <div class="accordion-body">
 <ul>
 <li>You can add “saved replies” to your GitHub account</li>
@@ -1226,7 +1238,7 @@ which should be kept up to date:</p>
   Share an example of a good README
   </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
 <div class="accordion-body">
 <p>It is helpful to share an example of a README when teaching this
 section. Use your own example if you have one, or otherwise share <a href="https://github.com/carpentries/lesson-development-training/blob/main/README.md" class="external-link">the
@@ -1309,7 +1321,7 @@ Creative Commons). Do not write your own!</li>
   Templates for lesson developers
   </h3>
 </button>
-<div id="collapseSpoiler1" class="accordion-collapse collapse" data-bs-parent="#accordionSpoiler1" aria-labelledby="headingSpoiler1">
+<div id="collapseSpoiler1" class="accordion-collapse collapse" aria-labelledby="headingSpoiler1" data-bs-parent="#accordionSpoiler1">
 <div class="accordion-body">
 <p>We have prepared the following templates to help lesson developers
 get started with writing the README and contributing guide for their
@@ -1529,6 +1541,338 @@ Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
 </div>
+</section></section><section id="aio-dev-ide"><p>Content from <a href="dev-ide.html">Working in the github.dev IDE</a></p>
+<hr>
+<p>Last updated on 2026-05-11 |
+
+        <a href="https://github.com/carpentries/github-skills/edit/main/episodes/dev-ide.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 25 minutes</p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>What is the github.dev IDE?</li>
+<li>When might it be helpful to use the github.dev IDE?</li>
+<li>How can I open pull requests from the github.dev IDE?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<p>After following this section, participants will be able to:</p>
+<ul>
+<li>Open a repository in the github.dev IDE.</li>
+<li>Create branches, modify and commit files, and open pull requests
+from the github.dev IDE.</li>
+<li>Populate a <code>CITATION.cff</code> file for their project with the
+cff-init webtool.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="another-way-to-work">Another Way to Work<a class="anchor" aria-label="anchor" href="#another-way-to-work"></a>
+</h2>
+<hr class="half-width">
+<p>The GitHub browser interface is great for looking through files and
+folders, viewing the project history and details of specific changes,
+and managing issues and pull requests. But it has some limitations. It
+is common practice to edit multiple files in one go and package them
+together in one commit, but the GitHub browser interface can only edit
+and commit single files at a time. It can be helpful to refer to the
+contents of other files even when only making edits to a single
+file.</p>
+<p>Developers often clone a project locally to obtain more flexibility
+in how they work with a repository, to preview changes before they
+commit, etc. However, it can be cumbersome to make a clone of every
+project you want to contribute to.</p>
+<p>In recent years, GitHub has provided something like a middle ground:
+an <a href="https://glosario.carpentries.org/en/#ide" class="external-link">integrated
+development environment (IDE)</a> to work with your repository without
+leaving the web browser. This IDE interface, called github.dev, is
+available on all GitHub repositories.</p>
+<div class="section level3">
+<h3 id="launching-the-github-dev-ide">Launching the github.dev IDE<a class="anchor" aria-label="anchor" href="#launching-the-github-dev-ide"></a>
+</h3>
+<p>There are a few different ways to access the IDE interface:</p>
+<ol style="list-style-type: decimal">
+<li>Navigate in the standard GitHub interface to a file you want to
+modify. Select the downward arrow next to the edit button (pencil icon),
+and choose “github.dev” from the dropdown list. <img src="../fig/edit-dropdown.png" alt="the edit dropdown menu" class="figure">
+</li>
+<li>Edit the URL in your browser address bar to replace
+github<strong>.com</strong> with github<strong>.dev</strong> then hit
+<kbd>Enter</kbd>.</li>
+<li>Press the <kbd>.</kbd> key while viewing the contents of any file or
+directory in your repository (including the repo home page).</li>
+</ol>
+<p>After taking any of the steps above, the IDE interface will launch in
+our browser tab. It can take a few moments to get started but then you
+should find yourself in an IDE view of the repository.</p>
+<p>The new interface will feel familiar to participants who are already
+making frequent use of an IDE, especially VS Code. For those less
+familair, a short tour of the interface:</p>
+<ul>
+<li>The window is arranged in panels.</li>
+<li>The main, central panel provides an editing view of the source files
+you open, and can display a rendered preview of Markdown files. At
+launch, this central panel will display a preview of the rendered
+<code>README.md</code>.
+<ul>
+<li>To open such a Markdown preview, right-click on a <code>.md</code>
+file in the sidebar and select “Open Preview”.</li>
+</ul>
+</li>
+<li>The left side of the screen includes a sidebar with a series of
+icons to switch between different menus/tools in this sidebar. At
+launch, the sidebar displays a file explorer tool, from which you can
+open existing files for editing, create new directories and files, etc.
+Other modes of that sidebar provide an interface to search, version
+control, the extension marketplace for VS Code, GitHub, etc.</li>
+<li>The bottom panel includes a console and a terminal interface. These
+can be used to run shell commands and source code in the repository, see
+the output/error messages, etc.</li>
+</ul>
+<div id="editing-files-in-the-github.dev-ide" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<span class="callout-header">Discussion</span>
+<div id="editing-files-in-the-github.dev-ide" class="callout-inner">
+<h3 class="callout-title">Editing files in the github.dev IDE</h3>
+<div class="callout-content">
+<p>The <code>CITATION.cff</code> file in your example repository is a
+placeholder populated mostly by FIXMEs. Let’s update it and add a link
+to <a href="https://carpentries.github.io/sandpaper-docs/editing.html#making-your-lesson-citable" class="external-link">the
+<em>Acknowledgements and Citations</em> page it produces</a> to the
+README file.</p>
+<div class="section level4">
+<h4 id="edit-citation-cff">1. Edit <code>CITATION.cff</code>
+<a class="anchor" aria-label="anchor" href="#edit-citation-cff"></a>
+</h4>
+<ol style="list-style-type: decimal">
+<li>Visit <a href="https://citation-file-format.github.io/cff-initializer-javascript/#/" class="external-link">CFF
+INIT</a> and select <em>Update</em>.</li>
+<li>Paste the current contents of <code>CITATION.cff</code> into the box
+and select <em>Parse</em> then <em>Start Editing</em>. For the purposes
+of Citation File Format, our lesson repository is a
+<em>Dataset</em>.</li>
+<li>Adjust a few fields in this edit interface, e.g. <em>Title of the
+dataset</em>, the author (use your own details or make some up), the
+abstract, etc.</li>
+<li>When you are done editing, select <em>Copy to clipboard</em> near
+the top-right, and paste the new contents into your
+<code>CITATION.cff</code> file (replacing the current content).</li>
+</ol>
+</div>
+<div class="section level4">
+<h4 id="link-to-the-lesson-citation-page-from-readme-md">2. Link to the Lesson Citation page from <code>README.md</code>
+<a class="anchor" aria-label="anchor" href="#link-to-the-lesson-citation-page-from-readme-md"></a>
+</h4>
+<ol style="list-style-type: decimal">
+<li>Open your <code>README.md</code> for editing. (You cannot edit the
+file from the preview that was opened by deault when we launched the IDE
+interface.)</li>
+<li>Add a new section heading at the bottom of the file,
+e.g. <code>## Cite this Project</code>
+</li>
+<li>Add a link under that heading, pointing to the <em>Acknowledgements
+and Citations</em> page of the lesson site. The URL to that page is
+<code>&lt;base url of your lesson site&gt;/citation.html</code>.</li>
+</ol>
+</div>
+<div class="section level4">
+<h4 id="commit-the-changes-and-open-a-pull-request">3. Commit the changes and open a pull request<a class="anchor" aria-label="anchor" href="#commit-the-changes-and-open-a-pull-request"></a>
+</h4>
+<ol style="list-style-type: decimal">
+<li>Open the version control interface in the left sidebar. The two
+modified files are staged for commit by default, but <strong>we do not
+want to commit the changes yet</strong>. We should first switch to a new
+branch, so that we can open a pull request and get the changes reviewed
+before they are merged.</li>
+<li>Find <code>main</code> in the toolbar right at the bottom of the
+screen. Select that part of the toolbar and choose <em>Create new
+branch</em> from the dropdown that appears at the top of the window.
+Enter a name for the new branch, e.g. <code>citation-page</code>.
+Confirm that you want to switch to that new branch.</li>
+<li>Now commit the changes in the version control sidebar. Write a short
+commit message, e.g. “populated CFF and linked to citation page”, then
+select <em>Commit &amp; Push</em>.</li>
+<li>Open a pull request to merge these changes into the
+<code>main</code> branch. Select the three dots at the top-right of the
+version control sidebar interface, then select <em>Pull Request</em>
+-&gt; <em>Create Pull Request</em>. Provide a title and description for
+the PR then select <em>Create Pull Request</em>.</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<p>To return to GitHub’s standard repository web interace, select
+<em>GitHub</em> from the very bottom-left of the window, then <em>Go to
+Repository</em> from the dropdown that opens at the top of the window.
+From here, you can find the newly-opened PR, review and merge it as
+discussed earlier.</p>
+</div>
+</section><section><h2 class="section-heading" id="codespaces-preview-changes-to-your-lesson-in-the-browser">Codespaces: preview changes to your lesson in the browser<a class="anchor" aria-label="anchor" href="#codespaces-preview-changes-to-your-lesson-in-the-browser"></a>
+</h2>
+<hr class="half-width">
+<p>Repositories that contain a <code>.devcontainer</code> directory can
+be launched in a <em>codespace</em>: a configured development
+environment running inside a container, hosted on GitHub’s systems in
+the cloud. That directory includes files that specify the configuration
+of the codespace environment. (<code>.devcontainer</code> use is not
+limited to Codespaces: the same directory can be used to setup an
+equivalent environment for development in a local version of VS Code.)
+Our lesson template includes a <code>.devcontainer</code> describing the
+software required running The Carpentries Workbench, which means that we
+can launch a Codespace running the lesson infrastructure in the
+github.dev IDE.</p>
+<div id="accordionInstructor1" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
+  <h3 class="accordion-header" id="headingInstructor1">
+  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>
+  While you are waiting…
+  </h3>
+</button>
+<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
+<div class="accordion-body">
+<p>The codespace can take a bit of time to launch. This is a good
+opportunity to answer any questions participants have, and/or to point
+them towards the installation instructions for the Workbench so that
+they have another way to build their lessons locally. You could also
+talk more about the contents of <code>.devcontainer/Dockerfile</code>,
+if the participants have sufficient technical expertise to follow
+that.</p>
+</div>
+</div>
+</div>
+</div>
+<ol style="list-style-type: decimal">
+<li><p>From the home page of your lesson repository, select
+<em>Code</em> -&gt; <em>Codespaces</em> -&gt; <em>Create Codespace on
+main</em>. This will launch the github.dev interface again, but this
+time in an environment that includes The Carpentries Workbench R
+packages. The initial launch can take a few minutes to
+complete.</p></li>
+<li><p>Once the IDE has finished setting up, you will get a similar IDE
+interface but with a console prompt starting with
+<code>rstudio@codespaces-</code>. Typing <code>R</code> into that
+console prompt and pressing <kbd>Enter</kbd> will launch an R
+session.</p></li>
+<li>
+<p>In that R session, run the following commands to build the lesson
+and launch a server to provide live previews of the lesson as we make
+changes:</p>
+<div class="codewrapper sourceCode" id="cb1">
+<h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="kw">library</span><span class="op">(</span><span class="va">sandpaper</span><span class="op">)</span></span>
+<span><span class="fu">sandpaper</span><span class="fu">::</span><span class="fu">serve</span><span class="op">(</span><span class="op">)</span></span></code></pre>
+</div>
+<p>This lesson preview will appear in a new browser tab. The URL is
+shareable, so you can use it to show your colleagues/co-maintainers how
+some new version of the lesson would look after changes on your working
+branch have been merged.</p>
+</li>
+<li><p>Let’s test it out! Make some changes to the <code>index.md</code>
+of the lesson, or one of the episode source files. This will trigger a
+rebuild of the relevant pages and, after a short time, the preview will
+refresh, with the new changes visible.</p></li>
+</ol>
+<p>This kind of live preview can be very helpful for source repositories
+of GitHub Pages websites. A similar approach, with
+<code>.devcontainer</code> and codespaces, can be valuable for software
+projects as well: providing a fully configured development environment
+for the software, with unit tests etc, dramatically reducing the barrier
+for new contributors to engage with the project.</p>
+<div id="codespaces-can-cost-money" class="callout caution">
+<div class="callout-square">
+<i class="callout-icon" data-feather="alert-triangle"></i>
+</div>
+<span class="callout-header">Caution</span>
+<div id="codespaces-can-cost-money" class="callout-inner">
+<h3 class="callout-title">Codespaces can cost money!</h3>
+<div class="callout-content">
+<p>It can cost you money to run these codespaces on GitHub’s systems: <a href="https://docs.github.com/en/billing/concepts/product-billing/github-codespaces" class="external-link">users
+and organisations have quotas of free usage</a>, which is tracked in
+terms of time and storage space. Minor usage typically falls below the
+limits of these quotas but if you do exceed them, you will either be
+unable to keep using your codespaces until the next billing period
+begins, or you will be charged for continued usage. We recommend that
+you review the billing documentation linked above, and consider the
+following advice:</p>
+<ol style="list-style-type: decimal">
+<li>
+<a href="https://github.com/settings/billing/usage" class="external-link"><strong>Keep
+track of your usage</strong> and billing settings with GitHub</a>.</li>
+<li>
+<strong>Stop your codespaces</strong> when you are not using them.
+Back in the standard web interface of your repository, select
+<em>Code</em> -&gt; <em>Codespaces</em> then use the three dot menu next
+to a running Codespace. Choose <em>Stop codespace</em> when you have
+finished working with the codespace.</li>
+<li>
+<strong>Delete unused codespaces</strong>. If you do not expect to
+need it again, select <em>Auto-delete codespace</em> so that a codespace
+does not accrue storage costs after it has been stopped. You can view a
+list of all codespaces for a repository by selecting <em>Code</em> -&gt;
+<em>Codespaces</em> -&gt; three dot menu -&gt; <em>Manage
+codespaces</em> and clean up old Codespaces from that listing.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="stop-and-delete-your-codespace" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<span class="callout-header">Discussion</span>
+<div id="stop-and-delete-your-codespace" class="callout-inner">
+<h3 class="callout-title">Stop and delete your codespace</h3>
+<div class="callout-content">
+<p>Following the steps described in the callout above, stop the
+codespace you launched while following this episode, and select
+<em>Auto-delete codespace</em> to ensure that it is not stored.</p>
+</div>
+</div>
+</div>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<span class="callout-header">Key Points</span>
+<div class="callout-inner">
+<div class="callout-content">
+<ul>
+<li>The github.dev IDE is a more flexible interface for working with
+repositories in the web browser.</li>
+<li>The IDE interface can be helpful when you need to make substantial
+changes to a repository but it is inconvenient or impossible to clone it
+locally.</li>
+<li>Changes can be staged and commited, and pull requests opened, from
+the version control sidebar tab of the IDE interface.</li>
+</ul>
+</div>
+</div>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
 </section></section>
 </div>
     </main>
@@ -1579,8 +1923,8 @@ any links that you are not going to use.
   "url": "https://carpentries.github.io/github-skills/instructor/aio.html",
   "identifier": "https://carpentries.github.io/github-skills/instructor/aio.html",
   "dateCreated": "2023-03-08",
-  "dateModified": "2026-05-08",
-  "datePublished": "2026-05-08"
+  "dateModified": "2026-05-11",
+  "datePublished": "2026-05-11"
 }
 
   </script><script>
